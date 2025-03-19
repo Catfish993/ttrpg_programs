@@ -1,11 +1,8 @@
 import random
-import Data
+import data
 import util
 
 class Character:
-
-    races = ["Elf", "Human", "Dwarf", "Halfling"]
-    archetypes = ["Cleric", "Fighter", "Spell Caster", "Thief"] 
 
     def __init__(self, name="", clan_name = "", gender="", race="", archetype =""):
         self.name = name
@@ -43,16 +40,16 @@ class Character:
         
         if self.name == "":
             if self.race == "Dwarf":
-                self.name = random.choice(Data.dwarven_names)  
+                self.name = random.choice(data.dwarven_names)  
                 return self.name
             if self.race == "Human":
-                self.name = random.choice(Data.human_names)  
+                self.name = random.choice(data.human_names)  
                 return self.name
             if self.race == "Elf":
-                self.name = random.choice(Data.elven_names)  
+                self.name = random.choice(data.elven_names)  
                 return self.name
             if self.race == "Halfling":
-                self.name = random.choice(Data.halfling_names)  
+                self.name = random.choice(data.halfling_names)  
                 return self.name
         else:
             self.name = self.name
@@ -60,7 +57,7 @@ class Character:
         
     def get_clan_name(self):
         if self.race == "Dwarf":
-            self.clan_name = random.choice(Data.dwarven_clans)
+            self.clan_name = random.choice(data.dwarven_clans)
             return self.clan_name
 
     def get_archetype(self):
