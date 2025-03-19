@@ -1,0 +1,2 @@
+okay so I have a functiont that will choose between a list of monsters, and I ahvbe a function that will make me a desired amount of rooms
+I want to have it go through room 1, then put a monster in there and then go to room two etc
