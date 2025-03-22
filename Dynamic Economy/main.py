@@ -14,34 +14,23 @@
     # tags: steel, iron, leather, wood
 
 import random
-
-items = {
-    "sword": {
-        "amount": 20,
-        "price": 20,
-        "tag": "steel"
-    }
-}
+import items
 
 class Econ:
 
     # simulate an economy
     def __init__(self):
-
-        self.tags = [
-            "Steel",
-            "Iron",
-            "Leather",
-            "Wood"
-        ]
         pass
 
     def econ_flux(self):
         num = random.randint(1,3)
         
-        num_picks = random.randint(0, len(self.tags))
+        # chooses a random amount of item tags to affect
+        num_picks = random.randint(0, len(items.tags))
         
-        tag_selection = random.sample(self.tags, k=num_picks)
+        # assigns the tags to be effected
+        tag_selection = random.sample(items.tags, k=num_picks)
+        print(num)
         print(tag_selection)
 
         if num == 1:
@@ -56,15 +45,45 @@ class Econ:
 
 class Items:
 
-    def __init__(self, item, quantity, price):
+    def __init__(self, item, quantity, price, tag):
 
-        self.item = item
-        self.quantity = quantity
-        self.price = price
+        self.item = str(item).lower()
+        self.quantity = int(quantity)
+        self.price = int(price)
+        self.tag = str(tag).lower()
 
-    
-    # method takes items and applies return valies from econ class
-    # 
+        items.inventory[self.item] = {
+            "amount": self.quantity,
+            "price": self.price,
+            "tag": self.tag
+        }
+
+        if any(x in self.tag for x in items.tags):
+            print("tag found in list. not adding. ")
+        else:
+            print("adding tag")
+            items.tags.append(self.tag)
+
+    def all_items(self):
+       print(items.inventory) 
+
+    def show_items_with_tag(self, tag: str):
+        # print out items with specific tag
+        tagged_items = {
+        name: data for name, data in items.inventory.items()
+        if data["tag"] == tag.lower()
+    }
+        
+        if tagged_items == {}:
+            print(f"No items with tag found.")
+        else:
+            print(tagged_items)
 
 new_econ = Econ()
 new_econ.econ_flux()
+
+new_items = Items("Long Bow", 20, 20, "wood")
+new_bow_items = Items("Short Bow", 20, 20, "wood")
+new_items.all_items()
+# new_items.show_items_with_tag('steel')
+
