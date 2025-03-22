@@ -1,5 +1,5 @@
-# A large dictionary of items 
-# will be the standard for prices, so some prices will reset after a time. 
+# inventory should exist as a json file to be called and updated. 
+import json
 
 tags = [
     "steel",
@@ -10,7 +10,7 @@ tags = [
 
 inventory = {
     "sword": {
-        "amount": 20,
+        "quantity": 20,
         "price": 20,
         "tag": "steel"
     }
