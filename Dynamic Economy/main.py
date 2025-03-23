@@ -2,10 +2,10 @@ import random
 import items
 import json
 
-with open("og_inventory.json", "r") as f:
+with open("Dynamic Economy/og_inventory.json", "r") as f:
     inventory = json.load(f)
 
-with open("updated_inventory.json", "r") as f:
+with open("Dynamic Economy/updated_inventory.json", "r") as f:
     updated_inventory = json.load(f)
 
 class Econ:
@@ -36,7 +36,7 @@ class Econ:
                         new_price = round(old_price * 1.5)
                         data["price"] = new_price
                         print(f"{name} price increased from {old_price} to {new_price}gp")
-                        with open("updated_inventory.json", "w") as f:
+                        with open("Dynamic Economy/updated_inventory.json", "w") as f:
                             json.dump(updated_inventory, f, indent=4)
             if num == 2:
                 print(f"\nDecreasing prices for tag: {x}")
@@ -46,7 +46,7 @@ class Econ:
                         new_price = round(old_price / 1.5)
                         data["price"] = new_price
                         print(f"{name} market price reset from {old_price} to {new_price} gp")
-                        with open("updated_inventory.json", "w") as f:
+                        with open("Dynamic Economy/updated_inventory.json", "w") as f:
                             json.dump(updated_inventory, f, indent=4)
                     
             if num == 3:
@@ -54,7 +54,10 @@ class Econ:
                 for name, data in updated_inventory.items():
                     if data["tag"] == x:
                         print(f"{name} Market price reset.")
-                        with open("updated_inventory.json", "w") as f:
+
+                        # This currently writes over everything. Needs to be more dynamic
+
+                        with open("Dynamic Economy/updated_inventory.json", "w") as f:
                             json.dump(inventory, f, indent=4)
 
 
@@ -77,14 +80,14 @@ class Items:
         inventory[self.item] = new_item
 
         try:
-            with open("og_inventory.json", "r") as f:
+            with open("Dynamic Economy/og_inventory.json", "r") as f:
                 data = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             data = {}
 
         data[self.item] = new_item
 
-        with open("og_inventory.json", "w") as f:
+        with open("Dynamic Economy/og_inventory.json", "w") as f:
             json.dump(data, f, indent=4)
 
         if self.tag in items.tags:
