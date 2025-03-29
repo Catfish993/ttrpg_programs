@@ -1,12 +1,12 @@
 {
     "sword": {
         "quantity": 20,
-        "price": 20,
+        "price": 13,
         "tag": "steel"
     },
     "long bow": {
         "quantity": 20,
-        "price": 20,
+        "price": 13,
         "tag": "test"
     }
 }
