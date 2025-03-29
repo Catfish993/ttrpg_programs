@@ -24,75 +24,90 @@ class Character:
     "Charisma": 0
 }
 
-    def getStats(self):
+    def get_stats(self):
+
+        stat_block = {}
+
         for ability in self.abilities:
-            self.abilities[ability] = util.dice_4d6()
-            print(f"{ability}: {self.abilities[ability]}") 
+            stat_value = util.dice_4d6()
+            stat_block[ability] = stat_value
+
+        self.current_character["Stats"] = stat_block
+
+    def get_modifiers(self):
+        
+        for ability in self.abilities:
+    
+            pass
 
     def get_race(self):
+
         valid_races = ["Human"]
-        if self.abilities["Constitution"] >= 9:
+        if self.current_character['Stats']["Constitution"] >= 9:
             valid_races.append("Dwarf")
-        if self.abilities["Intelligence"] >=9:
+        if self.current_character['Stats']["Intelligence"] >=9:
             valid_races.append("Elf")
-        if self.abilities["Dexterity"] >=9:
+        if self.current_character['Stats']["Dexterity"] >=9:
             valid_races.append("Halfling")
         
-        self.race = random.choice(valid_races)
-        return self.race
-    
+        self.current_character["Race"] = random.choice(valid_races)
+
     def get_name(self):
-        
         if self.name == "":
-            if self.race == "Dwarf":
-                self.name = random.choice(data.dwarven_names)  
-                return self.name
-            if self.race == "Human":
-                self.name = random.choice(data.human_names)  
-                return self.name
-            if self.race == "Elf":
-                self.name = random.choice(data.elven_names)  
-                return self.name
-            if self.race == "Halfling":
-                self.name = random.choice(data.halfling_names)  
-                return self.name
+            if self.current_character['Race'] == "Dwarf":
+                self.current_character['Name'] = random.choice(data.dwarven_names)
+            if self.current_character['Race'] == "Human":
+                self.current_character['Name'] = random.choice(data.human_names)
+            if self.current_character['Race'] == "Elf":
+                self.current_character['Name'] = random.choice(data.elven_names)
+            if self.current_character['Race'] == "Halfling":
+                self.current_character['Name'] = random.choice(data.halfling_names)
         else:
-            self.name = self.name
-            return self.name
+            self.current_character['Name'] = "Test"
         
     def get_clan_name(self):
-        if self.race == "Dwarf":
-            self.clan_name = random.choice(data.dwarven_clans)
-            return self.clan_name
+        if self.current_character['Race'] == "Dwarf":
+            self.current_character['Clan Name'] = random.choice(data.dwarven_clans)
 
     def get_archetype(self):
         
         if self.archetype == "":
             valid_archetype = ["Fighter"]
 
-            if self.abilities["Wisdom"] >=9:
+            if self.current_character['Stats']["Wisdom"] >=9:
                 valid_archetype.append("Cleric")
-            if self.abilities["Intelligence"] >=9 and self.race != "Dwarf" and self.race != "Halfling":
+            if self.current_character['Stats']["Intelligence"] >=9 and self.current_character['Race'] != "Dwarf" and self.current_character['Race'] != "Halfling":
                 valid_archetype.append("Magic User")
-            if self.abilities["Dexterity"] >=9 and self.race != "Dwarf":
+            if self.current_character['Stats']["Dexterity"] >=9 and self.current_character['Race'] != "Dwarf":
                 valid_archetype.append("Thief")
 
-            self.archetype = random.choice(valid_archetype)
+            self.current_character['Class'] = random.choice(valid_archetype)
+
+    def get_magic_spells(self):
+        if self.current_character["Class"] == "Magic User":
+            self.current_character["Spells"] = "Read Magic"
+            self.current_character["Spells"] = random.choice(data.first_level__magic_spells)
+
+    def get_cleric_spells(self):
+        if self.current_character["Class"] == "Cleric":
+            self.current_character["Spells"] = random.choice(data.first_level__cleric_spells)
 
     def clean_character_sheet(self):
         # modifies stats if they are too high
-        if self.race == "Dwarf" and self.abilities["Charisma"] >17:
+        if self.current_character['Race'] == "Dwarf" and self.current_character["Stats"]["Charisma"] >17:
             self.abilities["Charisma"] = 17
-        if self.race == "Elf" and self.abilities["Constitution"] >17:
+        if self.current_character['Race'] == "Elf" and self.current_character["Stats"]["Constitution"] >17:
             self.abilities["Constitution"] = 17
-        if self.race == "Halfling" and self.abilities["Strength"] >17:
+        if self.current_character['Race'] == "Halfling" and self.current_character["Stats"]["Strength"] >17:
             self.abilities["Strength"] = 17
 
     def generate_character(self):
         
         for _ in range(self.number_char):
 
-            self.getStats()
+            self.current_character = {}
+
+            self.get_stats()
             self.get_race()
             self.get_name()
             self.get_clan_name()
@@ -101,13 +116,8 @@ class Character:
             self.get_cleric_spells()
             self.clean_character_sheet()
 
-    def get_magic_spells(self):
-        if self.archetype == "Magic User":
-            self.magic_spells = random.choice(data.first_level__magic_spells)
-
-    def get_cleric_spells(self):
-        if self.archetype == "Cleric":
-            self.cleric_spells = random.choice(data.first_level__cleric_spells)
+            self.characters.append(self.current_character)
+            print(self.current_character)
 
     def __str__(self):
         if self.archetype == "Cleric":
