@@ -8,10 +8,6 @@ import utils
 dungeon_monsters = ["goblin", "orc", "Adventuring party"]
 
 
-# Traps
-traps = ["Spike Trap", "Pit Trap"]
-
-
 class room_generator:
 
     def __init__(self,rooms):
@@ -19,15 +15,52 @@ class room_generator:
         self.rooms = int(rooms)
         
     def MakeRooms(self):
-
-        print("Entrance:")
+        entrance = random.choice(data.entrance)
+        theme = random.choice(data.simple_dungeon_themes)
+        print(f'Theme: {theme}')
+        print(f"Entrance: {entrance}")
 
         for i in range(1, self.rooms + 1):
+
+            rooms = []
             
-            monster = monster_generator.add_monster()
-            monster_activity = monster_generator.monster_activity()
-            reaction_roll = monster_generator.reaction_roll()
-            print(f"Room: {i} Inhabitant: {monster} Activity: {monster_activity} Upon Seeing PC's: {reaction_roll}")
+            # roll room type
+            room_type = utils.roll_d100()
+
+            if room_type <= 16:
+                # Empty
+                rooms.append(f"{i})Empty")
+            if 17 <= room_type <= 20:
+                # Unguarded Treasure
+                # TODO: add treasure generator
+                rooms.append(f"{i})Unguarded Treasure")
+            if 21 <= room_type <= 60:
+                # Monster
+                monster = monster_generator.add_monster()
+                monster_activity = monster_generator.monster_activity()
+                reaction_roll = monster_generator.reaction_roll()
+                rooms.append(f"{i})Inhabitant {monster}, Activity: {monster_activity}. Upon Seeing the Pc's {reaction_roll}")
+            if 61 <= room_type <= 84:
+                # Monster with Treasure
+                # TODO: add treasure generator
+                monster = monster_generator.add_monster()
+                monster_activity = monster_generator.monster_activity()
+                reaction_roll = monster_generator.reaction_roll()
+                rooms.append(f"{i})Inhabitant {monster}, Activity: {monster_activity}. Upon Seeing the Pc's {reaction_roll}, Add Treasure")
+            if 85 <= room_type <= 88:
+                # Special
+                special = random.choice(data.special_rooms)
+                rooms.append(f"{i}){special}")
+            if 89 <= room_type <= 96:
+                # Trap
+                trap = dungeon_traps.add_traps()
+                rooms.append(f"{i}){trap}")
+            if 97 <= room_type <= 100:
+                # Trap with Treasure
+                trap = dungeon_traps.add_traps()
+                rooms.append(f"{i}){trap}, Treasure")
+
+            print(rooms)
     
 class monster_generator():
 
@@ -59,8 +92,8 @@ class Traps():
     def __init__(self):
         pass
         
-    def add_traps():
-        traps = random.choice(traps)
+    def add_traps(self):
+        traps = random.choice(data.traps)
         return traps
     
 room_generator = room_generator(5)
