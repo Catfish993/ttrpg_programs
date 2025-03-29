@@ -62,3 +62,10 @@ halfling_names = [
     "Rosie",
     "Tobias"
 ]
+
+# Magic User
+first_level__magic_spells = ["Charm Person", "Detect Magic", "Floating Disk", "Hold Portal", "Light", "Magic Missle", 
+                      "Magic Mouth", "Protection From Evil", "Read Languages", "Shield", "Ventriloquism"]
+
+# Cleric Spells
+first_level__cleric_spells = ["Cure Light Wounds", "Detect Evil", "Detect Magic", "Light", "Protection From Evil", "Purify Food and Water", "Remove Fear", "Resist Cold"]
