@@ -24,3 +24,13 @@ def roll_1d6():
 def roll_1d8():
     d8 = random.randint(1,8)
     return d8
+
+def starter_gold():
+    dice_one = random.randint(1,6)
+    dice_two = random.randint(1,6)
+    dice_three = random.randint(1,6)
+
+    total_dice = dice_one + dice_two + dice_three
+    total_gold = total_dice * 10
+    print(total_gold)
+    return total_gold

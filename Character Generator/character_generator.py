@@ -97,6 +97,12 @@ class Character:
             hp = util.roll_1d4()
             self.current_character["HP"] = hp + con_mod
 
+    def roll_gold(self):
+
+        player_gold = util.starter_gold()
+        self.current_character["Gold"] = player_gold
+        pass
+
     def get_race(self):
 
         valid_races = ["Human"]
@@ -175,6 +181,7 @@ class Character:
             self.get_cleric_spells()
             self.get_modifiers()
             self.roll_hp()
+            self.roll_gold()
             self.clean_character_sheet()
 
             self.characters.append(self.current_character)
