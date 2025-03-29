@@ -4,10 +4,9 @@ import util
 
 class Character:
 
-    def __init__(self, number_char = 1, name="", clan_name = "", gender="", race="", archetype ="", magic_spells="", cleric_spells=""):
+    def __init__(self, name="", clan_name = "", gender="", race="", archetype ="", magic_spells="", cleric_spells=""):
         
         self.characters = []
-        self.number_char = number_char
         self.name = name
         self.gender = gender
         self.race = race
@@ -36,9 +35,67 @@ class Character:
 
     def get_modifiers(self):
         
-        for ability in self.abilities:
-    
-            pass
+        for stat, value in self.current_character["Stats"].items():
+
+            self.modifier = 0
+            
+            if value ==18:
+                self.modifier = 3
+                self.current_character["Stats"][stat] = {
+                    "Score": value,
+                    "Mod": self.modifier
+                }
+            if 16 <= value <= 17:
+                self.modifier = 2
+                self.current_character["Stats"][stat] = {
+                    "Score": value,
+                    "Mod": self.modifier
+                }
+            if 13 <= value <= 15:
+                self.modifier = 1
+                self.current_character["Stats"][stat] = {
+                    "Score": value,
+                    "Mod": self.modifier
+                }
+            if 9 <= value <= 12:
+                self.modifier = 0
+                self.current_character["Stats"][stat] = {
+                    "Score": value,
+                    "Mod": self.modifier
+                }
+            if 6 <= value <= 8:
+                self.modifier = -1
+                self.current_character["Stats"][stat] = {
+                    "Score": value,
+                    "Mod": self.modifier
+                }
+            if 4 <= value <= 5:
+                self.modifier = -2
+                self.current_character["Stats"][stat] = {
+                    "Score": value,
+                    "Mod": self.modifier
+                }
+            if value == 3:
+                self.modifier = -3
+                self.current_character["Stats"][stat] = {
+                    "Score": value,
+                    "Mod": self.modifier
+                }
+            
+    def roll_hp(self):
+
+        if self.current_character['Class'] == "Fighter":
+            con_mod = self.current_character["Stats"]["Constitution"]["Mod"]
+            hp = util.roll_1d8()
+            self.current_character["HP"] = hp + con_mod
+        if self.current_character['Class'] == "Cleric":
+            con_mod = self.current_character["Stats"]["Constitution"]["Mod"]
+            hp = util.roll_1d6()
+            self.current_character["HP"] = hp + con_mod
+        if self.current_character['Class'] == "Magic User" or "Thief":
+            con_mod = self.current_character["Stats"]["Constitution"]["Mod"]
+            hp = util.roll_1d4()
+            self.current_character["HP"] = hp + con_mod
 
     def get_race(self):
 
@@ -85,8 +142,8 @@ class Character:
 
     def get_magic_spells(self):
         if self.current_character["Class"] == "Magic User":
-            self.current_character["Spells"] = "Read Magic"
-            self.current_character["Spells"] = random.choice(data.first_level__magic_spells)
+            self.current_character["1st Spell"] = "Read Magic"
+            self.current_character["2nd Spell"] = random.choice(data.first_level__magic_spells)
 
     def get_cleric_spells(self):
         if self.current_character["Class"] == "Cleric":
@@ -94,16 +151,18 @@ class Character:
 
     def clean_character_sheet(self):
         # modifies stats if they are too high
-        if self.current_character['Race'] == "Dwarf" and self.current_character["Stats"]["Charisma"] >17:
-            self.abilities["Charisma"] = 17
-        if self.current_character['Race'] == "Elf" and self.current_character["Stats"]["Constitution"] >17:
-            self.abilities["Constitution"] = 17
-        if self.current_character['Race'] == "Halfling" and self.current_character["Stats"]["Strength"] >17:
-            self.abilities["Strength"] = 17
+        if self.current_character['Race'] == "Dwarf" and self.current_character["Stats"]["Charisma"]["Score"] >17:
+            self.current_character["Stats"]["Charisma"]["Score"] = 17
+        if self.current_character['Race'] == "Elf" and self.current_character["Stats"]["Charisma"]["Score"] >17:
+            self.current_character["Stats"]["Charisma"]["Score"] = 17
+        if self.current_character['Race'] == "Halfling" and self.current_character["Stats"]["Charisma"]["Score"] >17:
+            self.current_character["Stats"]["Charisma"]["Score"] = 17
+        if self.current_character["HP"] == 0:
+            self.current_character["HP"] = 1
 
-    def generate_character(self):
+    def generate_character(self, num=1):
         
-        for _ in range(self.number_char):
+        for _ in range(num):
 
             self.current_character = {}
 
@@ -114,22 +173,12 @@ class Character:
             self.get_archetype()
             self.get_magic_spells()
             self.get_cleric_spells()
+            self.get_modifiers()
+            self.roll_hp()
             self.clean_character_sheet()
 
             self.characters.append(self.current_character)
             print(self.current_character)
 
-    def __str__(self):
-        if self.archetype == "Cleric":
-            return f"Character(Race: {self.race}, Name: {self.name} {self.clan_name}, Class: {self.archetype}, Cleric Spell: {self.cleric_spells})"
-        if self.archetype == "Magic User":
-            return f"Character(Race: {self.race}, Name: {self.name} {self.clan_name}, Class: {self.archetype}, Spells: Read Magic, {self.magic_spells})"
-        if self.race == "Dwarf":
-            return f"Character(Race: {self.race}, Name: {self.name} {self.clan_name}, Class: {self.archetype})"
-        else:
-            return f"Character(Race: {self.race}, Name: {self.name}, Class: {self.archetype})"
-        
-
-character1 = Character()
-character1.generate_character()
-print(character1)
+characters = Character()
+characters.generate_character()

@@ -12,3 +12,15 @@ def dice_4d6():
     dice_array.remove(min(dice_array))
     stat_total = dice_array[0] + dice_array[1] + dice_array[2]
     return stat_total
+
+def roll_1d4():
+    d4 = random.randint(1,4)
+    return d4
+
+def roll_1d6():
+    d6 = random.randint(1,6)
+    return d6
+
+def roll_1d8():
+    d8 = random.randint(1,8)
+    return d8
