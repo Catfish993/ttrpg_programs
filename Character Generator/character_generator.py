@@ -126,7 +126,7 @@ class Character:
             if self.current_character['Race'] == "Halfling":
                 self.current_character['Name'] = random.choice(data.halfling_names)
         else:
-            self.current_character['Name'] = "Test"
+            self.current_character['Name'] = self.name
         
     def get_clan_name(self):
         if self.current_character['Race'] == "Dwarf":
@@ -188,4 +188,4 @@ class Character:
             print(self.current_character)
 
 characters = Character()
-characters.generate_character()
+characters.generate_character(2)

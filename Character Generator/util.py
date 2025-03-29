@@ -32,5 +32,4 @@ def starter_gold():
 
     total_dice = dice_one + dice_two + dice_three
     total_gold = total_dice * 10
-    print(total_gold)
     return total_gold
