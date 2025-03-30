@@ -56,6 +56,19 @@ simple_dungeon_themes = [
     "Cultist Hideout"
 ]
 
+ancient_tomb_rooms = [
+    "Dusty Antechamber",
+    "Collapsed Hallway",
+    "Sarcophagus Chamber",
+    "Treasure Vault",
+    "Trapped Corridor",
+    "Ritual Chamber",
+    "Secret Burial Niche",
+    "Guardian's Watchroom",
+    "Echoing Catacomb",
+    "Sealed Offering Room"
+]
+
 traps = ["Spike Trap", "Pit Trap"]
 
 entrance = [
