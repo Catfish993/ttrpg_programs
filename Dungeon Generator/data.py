@@ -48,6 +48,10 @@ special_rooms = [
     "Fountain of echoes — asks questions to test characters' virtue",
 ]
 
+# to add more variation to the dungeon
+# add a theme here
+# then add a corresponding list of rooms below
+
 simple_dungeon_themes = [
     "Ancient Tomb",
     "Abandoned Mine",
