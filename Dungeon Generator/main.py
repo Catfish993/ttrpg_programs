@@ -16,46 +16,46 @@ class room_generator:
         
     def MakeRooms(self):
         entrance = random.choice(data.entrance)
-        theme = random.choice(data.simple_dungeon_themes)
-        print(f'Theme: {theme}')
+        self.theme = random.choice(data.simple_dungeon_themes)
+        print(f'Theme: {self.theme}')
         print(f"Entrance: {entrance}")
 
         for i in range(1, self.rooms + 1):
 
             rooms = []
-            themed_room = room_generator.theme_room()
+            self.themed_room = room_generator.theme_room()
             
             # roll room type
             room_type = utils.roll_d100()
 
             if room_type <= 16:
                 # Empty
-                rooms.append(f"{i}){themed_room} Empty")
+                rooms.append(f"{i}){self.themed_room} Empty")
             if 17 <= room_type <= 20:
                 # Unguarded Treasure
                 # TODO: add treasure generator
-                rooms.append(f"{i}){themed_room} Unguarded Treasure")
+                rooms.append(f"{i}){self.themed_room} Unguarded Treasure")
             if 21 <= room_type <= 60:
                 # Monster
                 monster_encounter = monster_generator.generate_monster_encounter()
-                rooms.append(f"{i}){themed_room} {monster_encounter}")
+                rooms.append(f"{i}){self.themed_room} {monster_encounter}")
             if 61 <= room_type <= 84:
                 # Monster with Treasure
                 # TODO: add treasure generator
                 monster_encounter = monster_generator.generate_monster_encounter()
-                rooms.append(f"{i}){themed_room} {monster_encounter}")
+                rooms.append(f"{i}){self.themed_room} {monster_encounter}")
             if 85 <= room_type <= 88:
                 # Special
                 special = random.choice(data.special_rooms)
-                rooms.append(f"{i}){themed_room} {special}")
+                rooms.append(f"{i}){self.themed_room} {special}")
             if 89 <= room_type <= 96:
                 # Trap
                 trap = dungeon_traps.add_traps()
-                rooms.append(f"{i}){themed_room} {trap}")
+                rooms.append(f"{i}){self.themed_room} {trap}")
             if 97 <= room_type <= 100:
                 # Trap with Treasure
                 trap = dungeon_traps.add_traps()
-                rooms.append(f"{i}){themed_room} {trap}, Treasure")
+                rooms.append(f"{i}){self.themed_room} {trap}, Treasure")
 
             print(rooms)
 
@@ -63,8 +63,12 @@ class room_generator:
 
         for _ in range(self.rooms):
 
-            themed_room = random.choice(data.ancient_tomb_rooms)
-            return themed_room
+            if self.theme == "Ancient Tomb":
+                themed_room = random.choice(data.ancient_tomb_rooms)
+                return themed_room
+            if self.theme == "Abandoned Mine":
+                themed_room = random.choice(data.abandoned_mine_rooms)
+                return themed_room
     
 class monster_generator():
 

@@ -51,9 +51,6 @@ special_rooms = [
 simple_dungeon_themes = [
     "Ancient Tomb",
     "Abandoned Mine",
-    "Goblin Warrens",
-    "Flooded Ruins",
-    "Cultist Hideout"
 ]
 
 ancient_tomb_rooms = [
@@ -67,6 +64,14 @@ ancient_tomb_rooms = [
     "Guardian's Watchroom",
     "Echoing Catacomb",
     "Sealed Offering Room"
+]
+
+abandoned_mine_rooms = [
+    "Collapsed Tunnel — debris blocks most of the passage, with a faint breeze coming through the cracks.",
+    "Old Equipment Room — rusted mining tools, shattered lanterns, and an eerie silence.",
+    "Mine Shaft — a deep vertical drop with a broken lift and rickety ladder along the wall.",
+    "Fungal Cavern — glowing mushrooms and spores fill the air; something's moving in the dark.",
+    "Foreman's Office — smashed desk, blood-stained papers, and a mysterious key left behind."
 ]
 
 traps = ["Spike Trap", "Pit Trap"]
