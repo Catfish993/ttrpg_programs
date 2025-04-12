@@ -55,6 +55,7 @@ special_rooms = [
 simple_dungeon_themes = [
     "Ancient Tomb",
     "Abandoned Mine",
+    "Mushroom forest",
 ]
 
 ancient_tomb_rooms = [
