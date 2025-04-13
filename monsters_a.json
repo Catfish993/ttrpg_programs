@@ -1,0 +1,3000 @@
+[
+  {
+    "name": "Antelope",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "1 to 4",
+      "No.of Attacks": "1 butt",
+      "Damage": "1d4 or 1d6 or 1d8",
+      "Movement": "80' (10')",
+      "No.Appearing": "Wild 3d10",
+      "Save As": "Fighter: 1 to 4 (as Hit Dice)",
+      "Morale": "5 (7)",
+      "Treasure Type": "None",
+      "XP": "25 - 240"
+    }
+  },
+  {
+    "name": "Ape, Carnivorous",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "4",
+      "No.of Attacks": "2 claws",
+      "Damage": "1d4/1d4",
+      "Movement": "40'",
+      "No.Appearing": "1d6, Wild 2d4, Lair 2d4",
+      "Save As": "Fighter: 4",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Assassin Vine",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "6",
+      "No.of Attacks": "1 entangle + special",
+      "Damage": "1d8 + special",
+      "Movement": "5'",
+      "No.Appearing": "1d4+1",
+      "Save As": "Fighter: 6",
+      "Morale": "12",
+      "Treasure Type": "U",
+      "XP": "500"
+    }
+  },
+  {
+    "name": "Barkling",
+    "stats": {
+      "Armor Class": "15 (11)",
+      "Hit Dice": "1/2 (1d4 HP)",
+      "No.of Attacks": "1 bite or 1 weapon",
+      "Damage": "1d4 bite, or by weapon",
+      "Movement": "20' Unarmored, 40'",
+      "No.Appearing": "3d4, Wild 4d6, Lair 5d10",
+      "Save As": "Normal Man",
+      "Morale": "7 (9)",
+      "Treasure Type": "P, Q each, C, K in Lair",
+      "XP": "10"
+    }
+  },
+  {
+    "name": "Basilisk (Common, Greater)",
+    "stats": {
+      "Armor Class": {
+        "Basilisk, Common": "16",
+        "Basilisk, Greater*": "17"
+      },
+      "Hit Dice": {
+        "Basilisk, Common": "6**",
+        "Basilisk, Greater*": "8***"
+      },
+      "No.of Attacks": {
+        "Basilisk, Common": "1 bite/1 gaze",
+        "Basilisk, Greater*": "1 bite/ 1 gaze"
+      },
+      "Damage": {
+        "Basilisk, Common": "1d10/petrification",
+        "Basilisk, Greater*": "1d12 + poison, bite, petrification gaze"
+      },
+      "Movement": {
+        "Basilisk, Common": "20' (10')",
+        "Basilisk, Greater*": "20' (10')"
+      },
+      "No.Appearing": {
+        "Basilisk, Common": "1d6, Wild 1d6, Lair 1d6",
+        "Basilisk, Greater*": "1"
+      },
+      "Save As": {
+        "Basilisk, Common": "Fighter: 6",
+        "Basilisk, Greater*": "Fighter: 8"
+      },
+      "Morale": {
+        "Basilisk, Common": "9",
+        "Basilisk, Greater*": "10"
+      },
+      "Treasure Type": {
+        "Basilisk, Common": "F",
+        "Basilisk, Greater*": "F, K"
+      },
+      "XP": {
+        "Basilisk, Common": "610",
+        "Basilisk, Greater*": "1,085"
+      }
+    }
+  },
+  {
+    "name": "Bat (and Bat, Giant)",
+    "stats": {
+      "Armor Class": {
+        "Bat": "14",
+        "Giant Bat": "14"
+      },
+      "Hit Dice": {
+        "Bat": "1 Hit Point",
+        "Giant Bat": "2"
+      },
+      "No.of Attacks": {
+        "Bat": "1 special",
+        "Giant Bat": "1 bite"
+      },
+      "Damage": {
+        "Bat": "Confusion",
+        "Giant Bat": "1d4"
+      },
+      "Movement": {
+        "Bat": "30' Fly 40'",
+        "Giant Bat": "10' Fly 60' (10')"
+      },
+      "No.Appearing": {
+        "Bat": "1d100, Wild1d100, Lair1d100",
+        "Giant Bat": "1d10, Wild 1d10, Lair1d10"
+      },
+      "Save As": {
+        "Bat": "Normal Man",
+        "Giant Bat": "Fighter: 2"
+      },
+      "Morale": {
+        "Bat": "6",
+        "Giant Bat": "8"
+      },
+      "Treasure Type": {
+        "Bat": "None",
+        "Giant Bat": "None"
+      },
+      "XP": {
+        "Bat": "10",
+        "Giant Bat": "75"
+      }
+    }
+  },
+  {
+    "name": "Bee, Giant",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "1/2* (1d4 HP)*",
+      "No.of Attacks": "1 sting",
+      "Damage": "1d4 + poison",
+      "Movement": "10' Fly 50'",
+      "No.Appearing": "1d6, Wild 1d6, Lair 5d6",
+      "Save As": "Fighter: 1",
+      "Morale": "9",
+      "Treasure Type": "Special",
+      "XP": "13"
+    }
+  },
+  {
+    "name": "Beetle, Giant Bombardier",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "2*",
+      "No.of Attacks": "1 bite + special",
+      "Damage": "1d6 + special",
+      "Movement": "40'",
+      "No.Appearing": "1d8, Wild 2d6, Lair 2d6",
+      "Save As": "Fighter: 2",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "100"
+    }
+  },
+  {
+    "name": "Beetle, Giant Fire",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "1+2",
+      "No.of Attacks": "1 bite",
+      "Damage": "2d4",
+      "Movement": "40'",
+      "No.Appearing": "1d8, Wild 2d6, Lair 2d6",
+      "Save As": "Fighter: 1",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "25"
+    }
+  },
+  {
+    "name": "Beetle, Giant Oil",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "2",
+      "No.of Attacks": "1 bite + spray (see below)",
+      "Damage": "2d4 bite, special spray",
+      "Movement": "40'",
+      "No.Appearing": "1d8, Wild 2d6, Lair 2d6",
+      "Save As": "Fighter: 2",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "100"
+    }
+  },
+  {
+    "name": "Beetle, Giant Tiger",
+    "stats": {
+      "Armor Class": "17",
+      "Hit Dice": "3+1",
+      "No.of Attacks": "1 bite",
+      "Damage": "2d6",
+      "Movement": "60' (10')",
+      "No.Appearing": "1d6, Wild 2d4, Lair 2d4",
+      "Save As": "Fighter: 3",
+      "Morale": "9",
+      "Treasure Type": "U",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Black Pudding* (Black Jelly)",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "10* (+9)",
+      "No.of Attacks": "1 pseudopod",
+      "Damage": "3d8",
+      "Movement": "20'",
+      "No.Appearing": "1",
+      "Save As": "Fighter: 10",
+      "Morale": "12",
+      "Treasure Type": "None",
+      "XP": "1,390"
+    }
+  },
+  {
+    "name": "Blink Dog",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "4*",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d6",
+      "Movement": "40'",
+      "No.Appearing": "1d6, Wild 1d6, Lair 1d6",
+      "Save As": "Fighter: 4",
+      "Morale": "6",
+      "Treasure Type": "C",
+      "XP": "280"
+    }
+  },
+  {
+    "name": "Blood Rose",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "2* to 4*",
+      "No.of Attacks": "1 to 3 + blood drain",
+      "Damage": "1d6, 1d6/round blood drain",
+      "Movement": "1'",
+      "No.Appearing": "Wild 1d8",
+      "Save As": "Fighter: 2",
+      "Morale": "12",
+      "Treasure Type": "None",
+      "XP": "100 - 280"
+    }
+  },
+  {
+    "name": "Boar",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "3",
+      "No.of Attacks": "1 tusk",
+      "Damage": "2d4",
+      "Movement": "50' (10')",
+      "No.Appearing": "Wild 1d6",
+      "Save As": "Fighter: 3",
+      "Morale": "9",
+      "Treasure Type": "None",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Bugbear",
+    "stats": {
+      "Armor Class": "15 (13)",
+      "Hit Dice": "3+1",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d8+1 or by weapon +1",
+      "Movement": "30' Unarmored 40'",
+      "No.Appearing": "2d4, Wild 5d4, Lair 5d4",
+      "Save As": "Fighter: 3",
+      "Morale": "9",
+      "Treasure Type": "Q, R each; B, L, M in lair",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Caecilia, Giant",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "6*",
+      "No.of Attacks": "1 bite + swallow on 19/20",
+      "Damage": "1d8 + 1d8/round if swallowed",
+      "Movement": "20' (10')",
+      "No.Appearing": "1d3, Lair 1d3",
+      "Save As": "Fighter: 3",
+      "Morale": "9",
+      "Treasure Type": "B",
+      "XP": "555"
+    }
+  },
+  {
+    "name": "Cattle (Including Aurochs and Bison)",
+    "stats": {}
+  },
+  {
+    "name": "Cave Locust, Giant",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "2**",
+      "No.of Attacks": "1 bite or 1 bump or 1 spit",
+      "Damage": "1d2 or 1d4* or special",
+      "Movement": "20' Fly 60' (15')",
+      "No.Appearing": "2d10, Wild 1d10",
+      "Save As": "Fighter: 2",
+      "Morale": "5",
+      "Treasure Type": "None",
+      "XP": "125"
+    }
+  },
+  {
+    "name": "Caveman",
+    "stats": {
+      "Armor Class": "12",
+      "Hit Dice": "2",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d8 or weapon + 1",
+      "Movement": "40'",
+      "No.Appearing": "1d10, Wild 10d4, Lair 10d4",
+      "Save As": "Fighter: 2",
+      "Morale": "7",
+      "Treasure Type": "C",
+      "XP": "75"
+    }
+  },
+  {
+    "name": "Centaur",
+    "stats": {
+      "Armor Class": "15 (13)",
+      "Hit Dice": "4",
+      "No.of Attacks": "2 hooves/1 weapon",
+      "Damage": "1d6/1d6/1d6 or by weapon",
+      "Movement": "50' Unarmored 60' (10')",
+      "No.Appearing": "Wild 2d10",
+      "Save As": "Fighter: 4",
+      "Morale": "8",
+      "Treasure Type": "A",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Centipede, Giant",
+    "stats": {
+      "Armor Class": "11",
+      "Hit Dice": "1d4 Hit Points*",
+      "No.of Attacks": "1 bite",
+      "Damage": "poison bite",
+      "Movement": "40'",
+      "No.Appearing": "2d4, Wild 2d4, Lair 2d4",
+      "Save As": "Normal Man",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "13"
+    }
+  },
+  {
+    "name": "Cheetah",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "2",
+      "No.of Attacks": "2 claws/1 bite",
+      "Damage": "1d4/1d4/2d4",
+      "Movement": "100'",
+      "No.Appearing": "Wild 1d3, Lair 1d3",
+      "Save As": "Fighter: 2",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "75"
+    }
+  },
+  {
+    "name": "Chimera",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "9** (+8)",
+      "No.of Attacks": "2 claws, 1 lion bite, 1 goat horns,1 dragon bite or breath",
+      "Damage": "1d4 claw, 2d4 bite (lion or dragon), 1d8 horns (goat), 3d4 dragon breath",
+      "Movement": "40' (10') Fly 60' (15')",
+      "No.Appearing": "1d2, Wild 1d4, Lair 1d4",
+      "Save As": "Fighter: 9",
+      "Morale": "9",
+      "Treasure Type": "F",
+      "XP": "1,225"
+    }
+  },
+  {
+    "name": "Cockatrice",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "5**",
+      "No.of Attacks": "1 beak + special",
+      "Damage": "1d6 + petrification",
+      "Movement": "30' Fly 60' (10')",
+      "No.Appearing": "1d4, Wild 1d8, Lair 1d8",
+      "Save As": "Fighter: 5",
+      "Morale": "7",
+      "Treasure Type": "D",
+      "XP": "450"
+    }
+  },
+  {
+    "name": "Crab, Giant",
+    "stats": {
+      "Armor Class": "18",
+      "Hit Dice": "3",
+      "No.of Attacks": "2 pincers",
+      "Damage": "2d6/2d6",
+      "Movement": "20' Swim 20'",
+      "No.Appearing": "1d2, Wild 1d6, Lair 1d6",
+      "Save As": "Fighter: 3",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Crocodile",
+    "stats": {}
+  },
+  {
+    "name": "Deceiver (Panther-Hydra)",
+    "stats": {
+      "Armor Class": {
+        "Common Deceiver": "16",
+        "Greater Deceiver": "16"
+      },
+      "Hit Dice": {
+        "Common Deceiver": "6*",
+        "Greater Deceiver": "7**"
+      },
+      "No.of Attacks": {
+        "Common Deceiver": "3 bites",
+        "Greater Deceiver": "3 bites"
+      },
+      "Damage": {
+        "Common Deceiver": "1d6 snake bite, 1d8 panther bite",
+        "Greater Deceiver": "1d6 + poison snake bite, 2d6 panther bite"
+      },
+      "Movement": {
+        "Common Deceiver": "50'",
+        "Greater Deceiver": "40'"
+      },
+      "No.Appearing": {
+        "Common Deceiver": "1d4, Wild 1d4",
+        "Greater Deceiver": "1d4, Wild 1d4"
+      },
+      "Save As": {
+        "Common Deceiver": "Fighter: 6",
+        "Greater Deceiver": "Fighter: 7"
+      },
+      "Morale": {
+        "Common Deceiver": "8",
+        "Greater Deceiver": "9"
+      },
+      "Treasure Type": {
+        "Common Deceiver": "D",
+        "Greater Deceiver": "D"
+      },
+      "XP": {
+        "Common Deceiver": "555",
+        "Greater Deceiver": "800"
+      }
+    }
+  },
+  {
+    "name": "Dinosaur, Deinonychus",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "3",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d8",
+      "Movement": "50'",
+      "No.Appearing": "1d3, Wild 2d3, Lair 2d6",
+      "Save As": "Fighter: 3",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Dinosaur, Pterodactyl (and Pteranodon)",
+    "stats": {
+      "Armor Class": {
+        "Pterodactyl": "12",
+        "Pteranodon": "13"
+      },
+      "Hit Dice": {
+        "Pterodactyl": "1",
+        "Pteranodon": "5"
+      },
+      "No.of Attacks": {
+        "Pterodactyl": "1 bite",
+        "Pteranodon": "1 bite"
+      },
+      "Damage": {
+        "Pterodactyl": "1d4",
+        "Pteranodon": "2d6"
+      },
+      "Movement": {
+        "Pterodactyl": "Fly 60' (10')",
+        "Pteranodon": "Fly 60' (15')"
+      },
+      "No.Appearing": {
+        "Pterodactyl": "Wild 2d4",
+        "Pteranodon": "Wild 1d4"
+      },
+      "Save As": {
+        "Pterodactyl": "Fighter: 1",
+        "Pteranodon": "Fighter: 3"
+      },
+      "Morale": {
+        "Pterodactyl": "7",
+        "Pteranodon": "8"
+      },
+      "Treasure Type": {
+        "Pterodactyl": "None",
+        "Pteranodon": "None"
+      },
+      "XP": {
+        "Pterodactyl": "25",
+        "Pteranodon": "360"
+      }
+    }
+  },
+  {
+    "name": "Dinosaur, Stegosaurus",
+    "stats": {
+      "Armor Class": "17",
+      "Hit Dice": "11 (+9)",
+      "No.of Attacks": "1 tail/1 bite or 1 trample",
+      "Damage": "2d8/1d6 or 2d8",
+      "Movement": "20' (15')",
+      "No.Appearing": "Wild 1d4",
+      "Save As": "Fighter: 6",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "1,575"
+    }
+  },
+  {
+    "name": "Dinosaur, Triceratops",
+    "stats": {
+      "Armor Class": "19",
+      "Hit Dice": "11 (+9)",
+      "No.of Attacks": "1 gore or 1 trample",
+      "Damage": "3d6 or 3d6 (special, see below)",
+      "Movement": "30' (15')",
+      "No.Appearing": "Wild 1d4",
+      "Save As": "Fighter: 7",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "1,575"
+    }
+  },
+  {
+    "name": "Dinosaur, Tyrannosaurus Rex",
+    "stats": {
+      "Armor Class": "23",
+      "Hit Dice": "18 (+12)",
+      "No.of Attacks": "1 bite",
+      "Damage": "6d6",
+      "Movement": "40' (10')",
+      "No.Appearing": "Wild 1d4",
+      "Save As": "Fighter: 9",
+      "Morale": "11",
+      "Treasure Type": "None",
+      "XP": "4,000"
+    }
+  },
+  {
+    "name": "Djinni*",
+    "stats": {
+      "Armor Class": "15 (m)",
+      "Hit Dice": "7+1**",
+      "No.of Attacks": "1 fist or 1 whirlwind",
+      "Damage": "2d8 or 2d6",
+      "Movement": "30' Fly 80'",
+      "No.Appearing": "1",
+      "Save As": "Fighter: 12",
+      "Morale": "12 (8)",
+      "Treasure Type": "None",
+      "XP": "800"
+    }
+  },
+  {
+    "name": "Dog",
+    "stats": {
+      "Armor Class": {
+        "Normal Dog": "14",
+        "Riding Dog": "14"
+      },
+      "Hit Dice": {
+        "Normal Dog": "1+1",
+        "Riding Dog": "2"
+      },
+      "No.of Attacks": {
+        "Normal Dog": "1 bite",
+        "Riding Dog": "1 bite"
+      },
+      "Damage": {
+        "Normal Dog": "1d4 + hold",
+        "Riding Dog": "1d4+1 + hold"
+      },
+      "Movement": {
+        "Normal Dog": "50'",
+        "Riding Dog": "50'"
+      },
+      "No.Appearing": {
+        "Normal Dog": "Wild 3d4",
+        "Riding Dog": "domestic only"
+      },
+      "Save As": {
+        "Normal Dog": "Fighter: 1",
+        "Riding Dog": "Fighter: 2"
+      },
+      "Morale": {
+        "Normal Dog": "9",
+        "Riding Dog": "9"
+      },
+      "Treasure Type": {
+        "Normal Dog": "None",
+        "Riding Dog": "None"
+      },
+      "XP": {
+        "Normal Dog": "25",
+        "Riding Dog": "75"
+      }
+    }
+  },
+  {
+    "name": "Doppleganger",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "4*",
+      "No.of Attacks": "1 fist or Weapon",
+      "Damage": "1d12 or by weapon",
+      "Movement": "30'",
+      "No.Appearing": "1d6, Wild 1d6, Lair 1d6",
+      "Save As": "Fighter: 4",
+      "Morale": "10",
+      "Treasure Type": "E",
+      "XP": "280"
+    }
+  },
+  {
+    "name": "Dryad",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "2*",
+      "No.of Attacks": "1 dagger or fist",
+      "Damage": "1d4",
+      "Movement": "40'",
+      "No.Appearing": "Lair 1d6",
+      "Save As": "Magic-User: 4",
+      "Morale": "6",
+      "Treasure Type": "D",
+      "XP": "100"
+    }
+  },
+  {
+    "name": "Eagle",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "2",
+      "No.of Attacks": "2 talons, 1 beak",
+      "Damage": "1d6/1d6/1d4",
+      "Movement": "10' fly 160 (10')'",
+      "No.Appearing": "1, Wild 1d4",
+      "Save As": "Fighter: 2",
+      "Morale": "8",
+      "Treasure Type": "Nil",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Eagle, Giant",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "4",
+      "No.of Attacks": "2 claws, 1 bite",
+      "Damage": "1d6/1d6/1d8",
+      "Movement": "10' fly 90'",
+      "No.Appearing": "2d6",
+      "Save As": "Fighter: 4",
+      "Morale": "7 (12 if defending a nest)",
+      "Treasure Type": "Nil",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Efreeti*",
+    "stats": {
+      "Armor Class": "21 (m)",
+      "Hit Dice": "10* (+9)",
+      "No.of Attacks": "1",
+      "Damage": "2d8 or special",
+      "Movement": "30' Fly 80' (10')",
+      "No.Appearing": "1",
+      "Save As": "Fighter: 15",
+      "Morale": "12 (9)",
+      "Treasure Type": "None",
+      "XP": "1,390"
+    }
+  },
+  {
+    "name": "Elemental*",
+    "stats": {
+      "Staff": "8",
+      "Device": "12",
+      "Conjured": "16"
+    }
+  },
+  {
+    "name": "Elephant",
+    "stats": {
+      "Armor Class": {
+        "Asiatic Elephant": "16",
+        "African Elephant": "18"
+      },
+      "Hit Dice": {
+        "Asiatic Elephant": "9 (+8)",
+        "African Elephant": "10 (+9)"
+      },
+      "No.of Attacks": {
+        "Asiatic Elephant": "2 tusks, 1 trunk grab, 2 tramples",
+        "African Elephant": "\u00e2\u0080\u0093same\u00e2\u0080\u0093"
+      },
+      "Damage": {
+        "Asiatic Elephant": "2d4 tusk, 2d6 grab, 2d8 trample",
+        "African Elephant": "\u00e2\u0080\u0093same\u00e2\u0080\u0093"
+      },
+      "Movement": {
+        "Asiatic Elephant": "40' (10')",
+        "African Elephant": "50' (15')"
+      },
+      "No.Appearing": {
+        "Asiatic Elephant": "Wild 1d20",
+        "African Elephant": "Wild 1d12"
+      },
+      "Save As": {
+        "Asiatic Elephant": "Fighter: 9",
+        "African Elephant": "Fighter: 10"
+      },
+      "Morale": {
+        "Asiatic Elephant": "8",
+        "African Elephant": "8"
+      },
+      "Treasure Type": {
+        "Asiatic Elephant": "special",
+        "African Elephant": "special"
+      },
+      "XP": {
+        "Asiatic Elephant": "1,075",
+        "African Elephant": "1,300"
+      }
+    }
+  },
+  {
+    "name": "Falcon",
+    "stats": {
+      "Armor Class": "11",
+      "Hit Dice": "1/2 (1d4 HP)",
+      "No.of Attacks": "2 talons, 1 beak",
+      "Damage": "1d4 talon, 1d4 beak",
+      "Movement": "10' fly 160' (10')",
+      "No.Appearing": "1, wild 1d4",
+      "Save As": "Fighter: 1",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "10"
+    }
+  },
+  {
+    "name": "Fish, Giant Barracuda",
+    "stats": {
+      "Armor Class": {
+        "Huge Barracuda": "16",
+        "Giant Barracuda": "15"
+      },
+      "Hit Dice": {
+        "Huge Barracuda": "5",
+        "Giant Barracuda": "9 (+8)"
+      },
+      "No.of Attacks": {
+        "Huge Barracuda": "1 bite",
+        "Giant Barracuda": "1 bite"
+      },
+      "Damage": {
+        "Huge Barracuda": "2d6",
+        "Giant Barracuda": "2d8+1"
+      },
+      "Movement": {
+        "Huge Barracuda": "Swim 60'",
+        "Giant Barracuda": "Swim 60' (10')"
+      },
+      "No.Appearing": {
+        "Huge Barracuda": "Wild 2d4",
+        "Giant Barracuda": "Wild 1"
+      },
+      "Save As": {
+        "Huge Barracuda": "Fighter: 5",
+        "Giant Barracuda": "Fighter: 9"
+      },
+      "Morale": {
+        "Huge Barracuda": "8",
+        "Giant Barracuda": "10"
+      },
+      "Treasure Type": {
+        "Huge Barracuda": "None",
+        "Giant Barracuda": "None"
+      },
+      "XP": {
+        "Huge Barracuda": "360",
+        "Giant Barracuda": "1,075"
+      }
+    }
+  },
+  {
+    "name": "Fish, Giant Bass",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "2",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d6",
+      "Movement": "Swim 40' (10')",
+      "No.Appearing": "Wild 1d6",
+      "Save As": "Fighter: 2",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "75"
+    }
+  },
+  {
+    "name": "Fish, Giant Catfish",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "8",
+      "No.of Attacks": "1 bite/2 fins",
+      "Damage": "2d8/1d4+poison/1d4+poison",
+      "Movement": "Swim 30' (10')",
+      "No.Appearing": "Wild 1d2",
+      "Save As": "Fighter: 8",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "875"
+    }
+  },
+  {
+    "name": "Fish, Giant Piranha",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "4",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d8",
+      "Movement": "Swim 50'",
+      "No.Appearing": "Wild 2d4",
+      "Save As": "Fighter: 4",
+      "Morale": "7 (11)",
+      "Treasure Type": "None",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Fly, Giant",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "2",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d8",
+      "Movement": "30' Fly 60'",
+      "No.Appearing": "1d6, Wild 2d6",
+      "Save As": "Fighter: 2",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "75"
+    }
+  },
+  {
+    "name": "Frog, Giant (and Toad, Giant)",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "2",
+      "No.of Attacks": "1 tongue or 1 bite",
+      "Damage": "grab or 1d4+1",
+      "Movement": "30' Swim 30'",
+      "No.Appearing": "1d4, Wild 1d4",
+      "Save As": "Fighter: 2",
+      "Morale": "6",
+      "Treasure Type": "None",
+      "XP": "75"
+    }
+  },
+  {
+    "name": "Gargoyle*",
+    "stats": {
+      "Armor Class": "15 (m)",
+      "Hit Dice": "4**",
+      "No.of Attacks": "2 claws/1 bite/1 horn",
+      "Damage": "1d4/1d4/1d6/1d4",
+      "Movement": "30' Fly 50' (15')",
+      "No.Appearing": "1d6, Wild 2d4, Lair 2d4",
+      "Save As": "Fighter: 6",
+      "Morale": "11",
+      "Treasure Type": "C",
+      "XP": "320"
+    }
+  },
+  {
+    "name": "Gelatinous Cube",
+    "stats": {
+      "Armor Class": "12",
+      "Hit Dice": "4*",
+      "No.of Attacks": "1",
+      "Damage": "2d4 + paralysis",
+      "Movement": "20'",
+      "No.Appearing": "1",
+      "Save As": "Fighter: 2",
+      "Morale": "12",
+      "Treasure Type": "V",
+      "XP": "280"
+    }
+  },
+  {
+    "name": "Ghost*",
+    "stats": {
+      "Armor Class": "20 (m)",
+      "Hit Dice": "10* (+9)",
+      "No.of Attacks": "1 touch/1 gaze",
+      "Damage": "1d8 + special",
+      "Movement": "30'",
+      "No.Appearing": "1",
+      "Save As": "Fighter: 10",
+      "Morale": "10",
+      "Treasure Type": "E, N, O",
+      "XP": "1,390"
+    }
+  },
+  {
+    "name": "Ghoul (and Ghast)",
+    "stats": {
+      "Armor Class": {
+        "Ghoul": "14",
+        "Ghast": "15"
+      },
+      "Hit Dice": {
+        "Ghoul": "2*",
+        "Ghast": "2**"
+      },
+      "No.of Attacks": {
+        "Ghoul": "2 claws, 1 bite",
+        "Ghast": "2 claws, 1 bite"
+      },
+      "Damage": {
+        "Ghoul": "1d4 all + paralysis",
+        "Ghast": "1d4 all + paralysis + stench"
+      },
+      "Movement": {
+        "Ghoul": "30'",
+        "Ghast": "30'"
+      },
+      "No.Appearing": {
+        "Ghoul": "1d6, Wild 2d8, Lair 2d8",
+        "Ghast": "1d4, Wild 1d8, Lair 1d8"
+      },
+      "Save As": {
+        "Ghoul": "Fighter: 2",
+        "Ghast": "Fighter: 2"
+      },
+      "Morale": {
+        "Ghoul": "9",
+        "Ghast": "9"
+      },
+      "Treasure Type": {
+        "Ghoul": "B",
+        "Ghast": "B"
+      },
+      "XP": {
+        "Ghoul": "100",
+        "Ghast": "125"
+      }
+    }
+  },
+  {
+    "name": "Giant, Cloud",
+    "stats": {
+      "Armor Class": "19 (13)",
+      "Hit Dice": "12+3* (+10)",
+      "No.of Attacks": "1 giant weapon or 1 thrown rock",
+      "Damage": "6d6 or 3d6",
+      "Movement": "20' Unarmored 40' (10')",
+      "No.Appearing": "1d2, Wild 1d3, Lair 1d3",
+      "Save As": "Fighter: 12",
+      "Morale": "10",
+      "Treasure Type": "E plus 1d12x1000 gp",
+      "XP": "1,975"
+    }
+  },
+  {
+    "name": "Giant, Cyclops",
+    "stats": {
+      "Armor Class": "15 (13)",
+      "Hit Dice": "13* (+10)",
+      "No.of Attacks": "1 giant club or 1 rock (thrown)",
+      "Damage": "3d10 or 3d6",
+      "Movement": "20' Unarmored 30'",
+      "No.Appearing": "1, Wild 1d4, Lair 1d4",
+      "Save As": "Fighter: 13",
+      "Morale": "9",
+      "Treasure Type": "E plus 1d8x1000 gp",
+      "XP": "2,285"
+    }
+  },
+  {
+    "name": "Giant, Fire",
+    "stats": {
+      "Armor Class": "17 (13)",
+      "Hit Dice": "11+2* (+9)",
+      "No.of Attacks": "1 giant weapon or 1 thrown rock",
+      "Damage": "5d6 or 3d6",
+      "Movement": "20' Unarmored 40' (10')",
+      "No.Appearing": "1d2, Wild 1d3, Lair 1d3",
+      "Save As": "Fighter: 11",
+      "Morale": "9",
+      "Treasure Type": "E plus 1d10x1000 gp",
+      "XP": "1,670"
+    }
+  },
+  {
+    "name": "Giant, Frost",
+    "stats": {
+      "Armor Class": "17 (13)",
+      "Hit Dice": "10+1* (+9)",
+      "No.of Attacks": "1 giant weapon or 1 thrown rock",
+      "Damage": "4d6 or 3d6",
+      "Movement": "20' Unarmored 40' (10')",
+      "No.Appearing": "1d2, Wild 1d4, Lair 1d4",
+      "Save As": "Fighter: 10",
+      "Morale": "9",
+      "Treasure Type": "E plus 1d10x1000 gp",
+      "XP": "1,390"
+    }
+  },
+  {
+    "name": "Giant, Hill",
+    "stats": {
+      "Armor Class": "15 (13)",
+      "Hit Dice": "8",
+      "No.of Attacks": "1 giant weapon (club)",
+      "Damage": "2d8",
+      "Movement": "30' Unarmored 40'",
+      "No.Appearing": "1d4, Wild 2d4, Lair 2d4",
+      "Save As": "Fighter: 8",
+      "Morale": "8",
+      "Treasure Type": "E plus 1d8x1000 gp",
+      "XP": "875"
+    }
+  },
+  {
+    "name": "Giant, Mountain",
+    "stats": {
+      "Armor Class": "15 (13)",
+      "Hit Dice": "16 (+12)",
+      "No.of Attacks": "1 giant weapon or 1 thrown rock",
+      "Damage": "7d6 (8d6) weapon, 4d6 rock",
+      "Movement": "40', Unarmored 50' (10')",
+      "No.Appearing": "1d4, Wild 1d4, Lair 1d4+1",
+      "Save As": "Fighter: 16",
+      "Morale": "10",
+      "Treasure Type": "E + 1d12x1,000gp",
+      "XP": "3,250"
+    }
+  },
+  {
+    "name": "Giant, Stone",
+    "stats": {
+      "Armor Class": "17 (15)",
+      "Hit Dice": "9 (+8)",
+      "No.of Attacks": "1 stone club or 1 thrown rock",
+      "Damage": "3d6 or 3d6",
+      "Movement": "30' Unarmored 40'",
+      "No.Appearing": "1d2, Wild 1d6, Lair 1d6",
+      "Save As": "Fighter: 9",
+      "Morale": "9",
+      "Treasure Type": "E plus 1d8x1000 gp",
+      "XP": "1,075"
+    }
+  },
+  {
+    "name": "Giant, Storm",
+    "stats": {
+      "Armor Class": "19 (13)",
+      "Hit Dice": "15** (+11)",
+      "No.of Attacks": "1 giant weapon or 1 lightning bolt",
+      "Damage": "8d6 or 15d6",
+      "Movement": "30' Unarmored 50' (10')",
+      "No.Appearing": "1, Wild 1d3, Lair 1d3",
+      "Save As": "Fighter: 15",
+      "Morale": "10",
+      "Treasure Type": "E plus 1d20x1000 gp",
+      "XP": "3,100"
+    }
+  },
+  {
+    "name": "Gnoll",
+    "stats": {
+      "Armor Class": "15 (13)",
+      "Hit Dice": "2",
+      "No.of Attacks": "1 weapon",
+      "Damage": "2d4 or by weapon +1",
+      "Movement": "30' Unarmored 40'",
+      "No.Appearing": "1d6, Wild 3d6, Lair 3d6",
+      "Save As": "Fighter: 2",
+      "Morale": "8",
+      "Treasure Type": "Q, S each; D, K in lair",
+      "XP": "75"
+    }
+  },
+  {
+    "name": "Gnome",
+    "stats": {
+      "Armor Class": "15 (11)",
+      "Hit Dice": "1",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d6 or by weapon",
+      "Movement": "20' Unarmored 40'",
+      "No.Appearing": "1d8, Wild 5d8, Lair 5d8",
+      "Save As": "Fighter: 1 (with Dwarf bonuses)",
+      "Morale": "8",
+      "Treasure Type": "D",
+      "XP": "25"
+    }
+  },
+  {
+    "name": "Goblin",
+    "stats": {
+      "Armor Class": "14 (11)",
+      "Hit Dice": "1-1",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d6 or by weapon",
+      "Movement": "20' Unarmored 30'",
+      "No.Appearing": "2d4 ,Wild 6d10, Lair 6d10",
+      "Save As": "Fighter: 1",
+      "Morale": "7 or see below",
+      "Treasure Type": "R each; C in lair",
+      "XP": "10"
+    }
+  },
+  {
+    "name": "Gorgon",
+    "stats": {
+      "Armor Class": "19",
+      "Hit Dice": "8*",
+      "No.of Attacks": "1 gore or 1 breath",
+      "Damage": "2d6 or petrification breath",
+      "Movement": "40' (10')",
+      "No.Appearing": "Wild 1d4",
+      "Save As": "Fighter: 8",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "945"
+    }
+  },
+  {
+    "name": "Griffon",
+    "stats": {
+      "Armor Class": "18",
+      "Hit Dice": "7",
+      "No.of Attacks": "2 claws/1 bite",
+      "Damage": "1d4/1d4/2d8",
+      "Movement": "40' (10') Fly 120' (10')",
+      "No.Appearing": "Wild 2d8, Lair 2d8",
+      "Save As": "Fighter: 7",
+      "Morale": "8",
+      "Treasure Type": "E",
+      "XP": "670"
+    }
+  },
+  {
+    "name": "Hangman Tree",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "5",
+      "No.of Attacks": "4 limbs + strangle",
+      "Damage": "1d6 per limb o + 1d6/round strangle",
+      "Movement": "0",
+      "No.Appearing": "Wild 1",
+      "Save As": "Fighter: 4",
+      "Morale": "12",
+      "Treasure Type": "None",
+      "XP": "360"
+    }
+  },
+  {
+    "name": "Harpy",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "2*",
+      "No.of Attacks": "2 claws/1 weapon + special",
+      "Damage": "1d4/1d4/1d6 or by weapon + special",
+      "Movement": "20' Fly 50' (10')",
+      "No.Appearing": "1d6, Wild 2d4, Lair 2d4",
+      "Save As": "Fighter: 2",
+      "Morale": "7",
+      "Treasure Type": "C",
+      "XP": "100"
+    }
+  },
+  {
+    "name": "Hawk",
+    "stats": {
+      "Armor Class": {
+        "Normal Hawk": "12",
+        "Giant Hawk": "14"
+      },
+      "Hit Dice": {
+        "Normal Hawk": "1d4 Hit Points",
+        "Giant Hawk": "4"
+      },
+      "No.of Attacks": {
+        "Normal Hawk": "1 claw or bite",
+        "Giant Hawk": "1 claw or bite"
+      },
+      "Damage": {
+        "Normal Hawk": "1d2",
+        "Giant Hawk": "1d6"
+      },
+      "Movement": {
+        "Normal Hawk": "Fly 160'",
+        "Giant Hawk": "Fly 150' (10')"
+      },
+      "No.Appearing": {
+        "Normal Hawk": "Wild 1d6, Lair 1d6",
+        "Giant Hawk": "Wild 1d3, Lair 1d3"
+      },
+      "Save As": {
+        "Normal Hawk": "Fighter: 1",
+        "Giant Hawk": "Fighter: 4"
+      },
+      "Morale": {
+        "Normal Hawk": "7",
+        "Giant Hawk": "8"
+      },
+      "Treasure Type": {
+        "Normal Hawk": "None",
+        "Giant Hawk": "None"
+      },
+      "XP": {
+        "Normal Hawk": "10",
+        "Giant Hawk": "240"
+      }
+    }
+  },
+  {
+    "name": "Hellhound",
+    "stats": {
+      "Armor Class": "14 to 18",
+      "Hit Dice": "3** to 7**",
+      "No.of Attacks": "1 bite or 1 breath",
+      "Damage": "1d6 or 1d6 per Hit Die",
+      "Movement": "40'",
+      "No.Appearing": "2d4, Wild 2d4, Lair 2d4",
+      "Save As": "Fighter: 3 to 7 (same as Hit Dice)",
+      "Morale": "9",
+      "Treasure Type": "C",
+      "XP": "205 - 800"
+    }
+  },
+  {
+    "name": "Hippogriff",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "3",
+      "No.of Attacks": "2 claws/1 bite",
+      "Damage": "1d6/1d6/1d10",
+      "Movement": "60' (10') Fly 120' (10')",
+      "No.Appearing": "Wild 2d8",
+      "Save As": "Fighter: 3",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Hobgoblin",
+    "stats": {
+      "Armor Class": "14 (11)",
+      "Hit Dice": "1",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d8 or by weapon",
+      "Movement": "30' Unarmored 40'",
+      "No.Appearing": "1d6, Wild 2d4, Lair 4d8",
+      "Save As": "Fighter: 1",
+      "Morale": "8",
+      "Treasure Type": "Q, R each; D, K in lair",
+      "XP": "25"
+    }
+  },
+  {
+    "name": "Hydra",
+    "stats": {
+      "Armor Class": "16 to 23",
+      "Hit Dice": "5 to 12 (+10)",
+      "No.of Attacks": "5 to 12 bites",
+      "Damage": "1d10 per bite",
+      "Movement": "40' (10')",
+      "No.Appearing": "1, Wild 1, Lair 1",
+      "Save As": "Fighter: 5 to 12",
+      "Morale": "9",
+      "Treasure Type": "B",
+      "XP": "360 - 1,875"
+    }
+  },
+  {
+    "name": "Hyena",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "2+1",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d6",
+      "Movement": "60'",
+      "No.Appearing": "1d8",
+      "Save As": "Fighter: 2",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "75"
+    }
+  },
+  {
+    "name": "Hyenodon",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "3+1",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d8",
+      "Movement": "40'",
+      "No.Appearing": "1d6, 1d8 Wild Lair 1d8",
+      "Save As": "Fighter: 3",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Insect Swarm",
+    "stats": {
+      "Armor Class": "Immune to normal weapons, including most magical types",
+      "Hit Dice": "2* to 4*",
+      "No.of Attacks": "1 swarm",
+      "Damage": "1d3 (double against no armor)",
+      "Movement": "10' Fly 20'",
+      "No.Appearing": "1 swarm, Wild 1d3 swarms",
+      "Save As": "N/A",
+      "Morale": "11",
+      "Treasure Type": "None",
+      "XP": "100 - 280"
+    }
+  },
+  {
+    "name": "Invisible Stalker",
+    "stats": {
+      "Armor Class": "19",
+      "Hit Dice": "8*",
+      "No.of Attacks": "1",
+      "Damage": "4d4",
+      "Movement": "40'",
+      "No.Appearing": "1 (special)",
+      "Save As": "Fighter: 8",
+      "Morale": "12",
+      "Treasure Type": "None",
+      "XP": "945"
+    }
+  },
+  {
+    "name": "Ironbane*",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "3*",
+      "No.of Attacks": "1 touch",
+      "Damage": "special",
+      "Movement": "50'",
+      "No.Appearing": "1d4",
+      "Save As": "Fighter: 4",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "175"
+    }
+  },
+  {
+    "name": "Jaguar",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "4",
+      "No.of Attacks": "2 claws/1 bite",
+      "Damage": "1d4/1d4/2d4",
+      "Movement": "70' Swim 30'",
+      "No.Appearing": "1d2, Wild 1d6",
+      "Save As": "Fighter: 4",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Kobold",
+    "stats": {
+      "Armor Class": "13 (11)",
+      "Hit Dice": "1d4 Hit Points",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d4 or by weapon",
+      "Movement": "20' Unarmored 30'",
+      "No.Appearing": "4d4, Wild 6d10, Lair 6d10",
+      "Save As": "Normal Man",
+      "Morale": "6",
+      "Treasure Type": "P, Q each; C in lair",
+      "XP": "10"
+    }
+  },
+  {
+    "name": "Leech, Giant",
+    "stats": {
+      "Armor Class": "17",
+      "Hit Dice": "6",
+      "No.of Attacks": "1 bite + hold",
+      "Damage": "1d6 + 1d6/round",
+      "Movement": "30'",
+      "No.Appearing": "Wild 1d4",
+      "Save As": "Fighter: 6",
+      "Morale": "10",
+      "Treasure Type": "None",
+      "XP": "500"
+    }
+  },
+  {
+    "name": "Leopard (Panther)",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "4",
+      "No.of Attacks": "2 claws, 1 bite",
+      "Damage": "1d4 claw, 2d4 bite",
+      "Movement": "60' (10')",
+      "No.Appearing": "1, Wild 1d4",
+      "Save As": "Fighter: 4",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Lion",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "5",
+      "No.of Attacks": "2 claws/1 bite",
+      "Damage": "1d6/1d6/1d10",
+      "Movement": "50'",
+      "No.Appearing": "Wild 1d8",
+      "Save As": "Fighter: 5",
+      "Morale": "9",
+      "Treasure Type": "None",
+      "XP": "360"
+    }
+  },
+  {
+    "name": "Lizard, Giant Draco",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "4+2",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d10",
+      "Movement": "40' Fly 70' (20', and see below)",
+      "No.Appearing": "1d4, Wild 1d8",
+      "Save As": "Fighter: 3",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Lizard, Giant Gecko",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "3+1",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d8",
+      "Movement": "40' (special)",
+      "No.Appearing": "1d6, Wild 1d10",
+      "Save As": "Fighter: 2",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Lizard, Giant Horned Chameleon",
+    "stats": {
+      "Armor Class": "18",
+      "Hit Dice": "5",
+      "No.of Attacks": "1 tongue or 1 bite",
+      "Damage": "grab or 2d6",
+      "Movement": "40' (10')",
+      "No.Appearing": "1d3, Wild 1d6",
+      "Save As": "Fighter: 4",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "360"
+    }
+  },
+  {
+    "name": "Lizard, Giant Tuatara",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "6",
+      "No.of Attacks": "2 claws/1 bite",
+      "Damage": "1d4/1d4/2d6",
+      "Movement": "40' (10')",
+      "No.Appearing": "1d2, Wild 1d4",
+      "Save As": "Fighter: 5",
+      "Morale": "6",
+      "Treasure Type": "None",
+      "XP": "500"
+    }
+  },
+  {
+    "name": "Lizard, Monitor",
+    "stats": {}
+  },
+  {
+    "name": "Lizard Man",
+    "stats": {
+      "Armor Class": {
+        "Common Lizard Man": "15 (12)",
+        "Subterranean Lizard Man": "15"
+      },
+      "Hit Dice": {
+        "Common Lizard Man": "2",
+        "Subterranean Lizard Man": "2"
+      },
+      "No.of Attacks": {
+        "Common Lizard Man": "1 weapon",
+        "Subterranean Lizard Man": "2 claws, 1 bite"
+      },
+      "Damage": {
+        "Common Lizard Man": "1d6+1 or by weapon +1",
+        "Subterranean Lizard Man": "1d4 claw, 1d4 bite"
+      },
+      "Movement": {
+        "Common Lizard Man": "20' Unarmored 30' Swim 40' (not armor)",
+        "Subterranean Lizard Man": "30' Swim 40'"
+      },
+      "No.Appearing": {
+        "Common Lizard Man": "2d4, Wild 2d4, Lair 6d6",
+        "Subterranean Lizard Man": "1d8, LAir 5d8"
+      },
+      "Save As": {
+        "Common Lizard Man": "Fighter: 2",
+        "Subterranean Lizard Man": "Fighter: 2"
+      },
+      "Morale": {
+        "Common Lizard Man": "11",
+        "Subterranean Lizard Man": "9"
+      },
+      "Treasure Type": {
+        "Common Lizard Man": "D",
+        "Subterranean Lizard Man": "d"
+      },
+      "XP": {
+        "Common Lizard Man": "75",
+        "Subterranean Lizard Man": "75"
+      }
+    }
+  },
+  {
+    "name": "Manticore",
+    "stats": {
+      "Armor Class": "18",
+      "Hit Dice": "6+1*",
+      "No.of Attacks": "2 claws/1 bite or 1d8 spikes (180' range)",
+      "Damage": "1d4/1d4/2d4 or 1d6 per spike",
+      "Movement": "40' Fly 60' (10')",
+      "No.Appearing": "1d2, Wild 1d4, Lair 1d4",
+      "Save As": "Fighter: 6",
+      "Morale": "9",
+      "Treasure Type": "D",
+      "XP": "555"
+    }
+  },
+  {
+    "name": "Mammoths and Mastodons",
+    "stats": {
+      "Armor Class": {
+        "Mammoth": "17",
+        "Mastodon": "18"
+      },
+      "Hit Dice": {
+        "Mammoth": "15 (+11)",
+        "Mastodon": "15 *(+11)"
+      },
+      "No.of Attacks": {
+        "Mammoth": "2 tusks, 1 trunk grab, 2 tramples",
+        "Mastodon": "\u00e2\u0080\u0093same\u00e2\u0080\u0093"
+      },
+      "Damage": {
+        "Mammoth": "3d6 tusk, 2d6 trunk, 2d8 trample",
+        "Mastodon": "2d6 tusk, 2d4 trunk, 2d8 trample"
+      },
+      "Movement": {
+        "Mammoth": "40' (15')",
+        "Mastodon": "50' (15')"
+      },
+      "No.Appearing": {
+        "Mammoth": "Wild 1d12",
+        "Mastodon": "Wild 2d8"
+      },
+      "Save As": {
+        "Mammoth": "Fighter: 15",
+        "Mastodon": "Fighter: 13"
+      },
+      "Morale": {
+        "Mammoth": "8",
+        "Mastodon": "8"
+      },
+      "Treasure Type": {
+        "Mammoth": "special",
+        "Mastodon": "special"
+      },
+      "XP": {
+        "Mammoth": "2850",
+        "Mastodon": "2,175"
+      }
+    }
+  },
+  {
+    "name": "Medusa",
+    "stats": {
+      "Armor Class": "12",
+      "Hit Dice": "4**",
+      "No.of Attacks": "1 snakebite + gaze",
+      "Damage": "1d6+poison + petrification",
+      "Movement": "30'",
+      "No.Appearing": "1d3, Wild 1d4, Lair 1d4",
+      "Save As": "Fighter: 4",
+      "Morale": "8",
+      "Treasure Type": "F",
+      "XP": "320"
+    }
+  },
+  {
+    "name": "Mermaid",
+    "stats": {
+      "Armor Class": "12",
+      "Hit Dice": "1*",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d6 or by weapon",
+      "Movement": "Swim 40'",
+      "No.Appearing": "Wild 1d2 or 3d6 (see below)",
+      "Save As": "Fighter: 1",
+      "Morale": "8",
+      "Treasure Type": "A",
+      "XP": "37"
+    }
+  },
+  {
+    "name": "Minotaur",
+    "stats": {
+      "Armor Class": "14 (12)",
+      "Hit Dice": "6",
+      "No.of Attacks": "1 gore/1 bite or 1 weapon",
+      "Damage": "1d6/1d6 , 1d6+2 or by weapon + 2",
+      "Movement": "30' Unarmored 40'",
+      "No.Appearing": "1d6, Wild 1d8, Lair 1d8",
+      "Save As": "Fighter: 6",
+      "Morale": "11",
+      "Treasure Type": "C",
+      "XP": "500"
+    }
+  },
+  {
+    "name": "Mountain Lion",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "3+2",
+      "No.of Attacks": "2 claws/1 bite",
+      "Damage": "1d4/1d4/1d6",
+      "Movement": "50'",
+      "No.Appearing": "Wild 1d4, Lair 1d4",
+      "Save As": "Fighter: 3",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Mummy*",
+    "stats": {
+      "Armor Class": "17 (m) (see below)",
+      "Hit Dice": "5**",
+      "No.of Attacks": "1 touch + disease",
+      "Damage": "1d12 + disease",
+      "Movement": "20'",
+      "No.Appearing": "1d4, Lair 1d12",
+      "Save As": "Fighter: 5",
+      "Morale": "12",
+      "Treasure Type": "D",
+      "XP": "450"
+    }
+  },
+  {
+    "name": "Nixie",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "1*",
+      "No.of Attacks": "1 dagger",
+      "Damage": "1d4",
+      "Movement": "40' Swim 40'",
+      "No.Appearing": "Wild 2d20, Lair 2d20",
+      "Save As": "Fighter: 2",
+      "Morale": "6",
+      "Treasure Type": "B",
+      "XP": "37"
+    }
+  },
+  {
+    "name": "Octopus, Giant",
+    "stats": {
+      "Armor Class": "19",
+      "Hit Dice": "8",
+      "No.of Attacks": "8 tentacles/1 bite",
+      "Damage": "1d4 per tentacle/1d6",
+      "Movement": "Swim 30'",
+      "No.Appearing": "Wild 1d2",
+      "Save As": "Fighter: 8",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "875"
+    }
+  },
+  {
+    "name": "Ogre",
+    "stats": {
+      "Armor Class": "15 (12)",
+      "Hit Dice": "4+1",
+      "No.of Attacks": "1 huge weapon",
+      "Damage": "2d6",
+      "Movement": "30' Unarmored 40'",
+      "No.Appearing": "1d6, Wild 2d6, Lair 2d6",
+      "Save As": "Fighter: 4",
+      "Morale": "10",
+      "Treasure Type": "C + 1d20x100 gp",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Orc",
+    "stats": {
+      "Armor Class": "14 (11)",
+      "Hit Dice": "1",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d8 or by weapon",
+      "Movement": "30' Unarmored 40'",
+      "No.Appearing": "2d4, Wild 3d6, Lair 10d6",
+      "Save As": "Fighter: 1",
+      "Morale": "8",
+      "Treasure Type": "Q, R each; D in lair",
+      "XP": "25"
+    }
+  },
+  {
+    "name": "Ostrich (and Emu)",
+    "stats": {
+      "Armor Class": {
+        "Ostrich": "14",
+        "Emu": "14"
+      },
+      "Hit Dice": {
+        "Ostrich": "3 2",
+        "Emu": ""
+      },
+      "No.of Attacks": {
+        "Ostrich": "1 kick",
+        "Emu": "1 kick"
+      },
+      "Damage": {
+        "Ostrich": "1d6",
+        "Emu": "1d4"
+      },
+      "Movement": {
+        "Ostrich": "60'",
+        "Emu": "50'"
+      },
+      "No.Appearing": {
+        "Ostrich": "Wild 1d6",
+        "Emu": "Wild 1d6"
+      },
+      "Save As": {
+        "Ostrich": "Fighter: 3",
+        "Emu": "Fighter: 2"
+      },
+      "Morale": {
+        "Ostrich": "8",
+        "Emu": "8"
+      },
+      "Treasure Type": {
+        "Ostrich": "None",
+        "Emu": "None"
+      },
+      "XP": {
+        "Ostrich": "145",
+        "Emu": "75"
+      }
+    }
+  },
+  {
+    "name": "Owl",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "1",
+      "No.of Attacks": "2 talons, 1 beak",
+      "Damage": "1d4 talon, 1d4 beak",
+      "Movement": "10' Fly 160' (10')",
+      "No.Appearing": "1, Wild 1d4",
+      "Save As": "Fighter: 1",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "25"
+    }
+  },
+  {
+    "name": "Parrot (or Cockatiel)",
+    "stats": {
+      "Armor Class": "11",
+      "Hit Dice": "\u00c2\u00bd (1d4 hit points)",
+      "No.of Attacks": "1 talon or 1 beak",
+      "Damage": "1d4 talon or 1d4 beak",
+      "Movement": "10' Fly 100' (10')",
+      "No.Appearing": "Wild 1d4",
+      "Save As": "Normal Man",
+      "Morale": "6",
+      "Treasure Type": "None",
+      "XP": "10"
+    }
+  },
+  {
+    "name": "Pegasus",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "4",
+      "No.of Attacks": "2 hooves",
+      "Damage": "1d6/1d6",
+      "Movement": "80' (10') Fly 160' (10')",
+      "No.Appearing": "Wild 1d12",
+      "Save As": "Fighter: 2",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Pixie",
+    "stats": {
+      "Armor Class": "17",
+      "Hit Dice": "1*",
+      "No.of Attacks": "1 dagger",
+      "Damage": "1d4",
+      "Movement": "30' Fly 60'",
+      "No.Appearing": "2d4, Wild 10d4, Lair 10d4",
+      "Save As": "Fighter: 1 (with Elf bonuses)",
+      "Morale": "7",
+      "Treasure Type": "R, S",
+      "XP": "37"
+    }
+  },
+  {
+    "name": "Purple Worm",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "11* (+9) to 20* (+13)",
+      "No.of Attacks": "1 bite/1 sting",
+      "Damage": "2d8/1d8+poison",
+      "Movement": "20' (15') Burrow 20' (15')",
+      "No.Appearing": "1d2, Wild 1d4",
+      "Save As": "Fighter: 6 to 10 (\u00c2\u00bd of Hit Dice)",
+      "Morale": "10",
+      "Treasure Type": "None",
+      "XP": "1,670 \u00e2\u0080\u0093 5,450"
+    }
+  },
+  {
+    "name": "Rat",
+    "stats": {
+      "Armor Class": {
+        "Normal Rat": "11",
+        "Giant Rat": "13"
+      },
+      "Hit Dice": {
+        "Normal Rat": "1 Hit Point",
+        "Giant Rat": "1d4 Hit Points"
+      },
+      "No.of Attacks": {
+        "Normal Rat": "1 bite per pack",
+        "Giant Rat": "1 bite"
+      },
+      "Damage": {
+        "Normal Rat": "1d6 + disease",
+        "Giant Rat": "1d4 + disease"
+      },
+      "Movement": {
+        "Normal Rat": "20' Swim 10'",
+        "Giant Rat": "40' Swim 20'"
+      },
+      "No.Appearing": {
+        "Normal Rat": "5d10, Wild 5d10, Lair 5d10",
+        "Giant Rat": "3d6, Wild 3d10, Lair 3d10"
+      },
+      "Save As": {
+        "Normal Rat": "Normal Man",
+        "Giant Rat": "Fighter: 1"
+      },
+      "Morale": {
+        "Normal Rat": "5",
+        "Giant Rat": "8"
+      },
+      "Treasure Type": {
+        "Normal Rat": "None",
+        "Giant Rat": "C"
+      },
+      "XP": {
+        "Normal Rat": "360*",
+        "Giant Rat": "10"
+      }
+    }
+  },
+  {
+    "name": "Rhagodessa, Giant",
+    "stats": {
+      "Armor Class": "16",
+      "Hit Dice": "4",
+      "No.of Attacks": "2 legs/1 bite",
+      "Damage": "grab/grab/2d8",
+      "Movement": "50'",
+      "No.Appearing": "1d4, Wild 1d6, Lair 1d6",
+      "Save As": "Fighter: 4",
+      "Morale": "9",
+      "Treasure Type": "U",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Rhinoceros",
+    "stats": {
+      "Armor Class": {
+        "Black Rhino": "17",
+        "Woolly Rhino": "19"
+      },
+      "Hit Dice": {
+        "Black Rhino": "8",
+        "Woolly Rhino": "12 (+10)"
+      },
+      "No.of Attacks": {
+        "Black Rhino": "1 butt or 1 trample",
+        "Woolly Rhino": ""
+      },
+      "Damage": {
+        "Black Rhino": "2d6 or 2d8",
+        "Woolly Rhino": "2d8 or 2d12"
+      },
+      "Movement": {
+        "Black Rhino": "40' (15')",
+        "Woolly Rhino": "40' (15')"
+      },
+      "No.Appearing": {
+        "Black Rhino": "Wild 1d12",
+        "Woolly Rhino": "Wild 1d8"
+      },
+      "Save As": {
+        "Black Rhino": "Fighter: 6",
+        "Woolly Rhino": "Fighter: 8"
+      },
+      "Morale": {
+        "Black Rhino": "6",
+        "Woolly Rhino": "6"
+      },
+      "Treasure Type": {
+        "Black Rhino": "None",
+        "Woolly Rhino": "None"
+      },
+      "XP": {
+        "Black Rhino": "875",
+        "Woolly Rhino": "1,875"
+      }
+    }
+  },
+  {
+    "name": "Roc",
+    "stats": {}
+  },
+  {
+    "name": "Rock Baboon",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "2",
+      "No.of Attacks": "1 club or Fist /1 bite",
+      "Damage": "1d6 club or 1d4 fist/1d4 bite",
+      "Movement": "40'",
+      "No.Appearing": "2d6, Wild 2d6, Lair 5d6",
+      "Save As": "Fighter: 2",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "75"
+    }
+  },
+  {
+    "name": "Rot Grub",
+    "stats": {
+      "Armor Class": "10",
+      "Hit Dice": "1 hp",
+      "No.of Attacks": "1 bite",
+      "Damage": "special",
+      "Movement": "5'",
+      "No.Appearing": "5d4",
+      "Save As": "Fighter: 1",
+      "Morale": "12",
+      "Treasure Type": "None",
+      "XP": "10"
+    }
+  },
+  {
+    "name": "Rust Monster*",
+    "stats": {
+      "Armor Class": "18",
+      "Hit Dice": "5*",
+      "No.of Attacks": "1 touch",
+      "Damage": "special",
+      "Movement": "40'",
+      "No.Appearing": "1d4",
+      "Save As": "Fighter: 5",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "405"
+    }
+  },
+  {
+    "name": "Sabre-Tooth Cat",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "8",
+      "No.of Attacks": "2 claws/1 bite",
+      "Damage": "1d6/1d6/2d8",
+      "Movement": "50'",
+      "No.Appearing": "Wild 1d4, Lair 1d4",
+      "Save As": "Fighter: 8",
+      "Morale": "10",
+      "Treasure Type": "None",
+      "XP": "875"
+    }
+  },
+  {
+    "name": "Salamander, Flame",
+    "stats": {
+      "Armor Class": "19 (m)",
+      "Hit Dice": "8*",
+      "No.of Attacks": "2 claws/1 bite + heat",
+      "Damage": "1d4/1d4/1d8 + 1d8/round",
+      "Movement": "40'",
+      "No.Appearing": "1d4+1, Wild 2d4, Lair 2d4",
+      "Save As": "Fighter: 8",
+      "Morale": "8",
+      "Treasure Type": "F",
+      "XP": "945"
+    }
+  },
+  {
+    "name": "Salamander, Frost",
+    "stats": {
+      "Armor Class": "21 (m)",
+      "Hit Dice": "12* (+10)",
+      "No.of Attacks": "4 claws/1 bite + cold",
+      "Damage": "1d6/1d6/1d6/1d6/2d6 + 1d8/round",
+      "Movement": "40'",
+      "No.Appearing": "1d3, Wild 1d3, Lair 1d3",
+      "Save As": "Fighter: 12",
+      "Morale": "9",
+      "Treasure Type": "E",
+      "XP": "1,975"
+    }
+  },
+  {
+    "name": "Salamander, Lightning*",
+    "stats": {
+      "Armor Class": "20 (m)",
+      "Hit Dice": "10* (+9)",
+      "No.of Attacks": "2 bites + lightning",
+      "Damage": "2d4 bite, 1d8/round lightning",
+      "Movement": "40'",
+      "No.Appearing": "1d4, Wild 2d4, Lair 2d4",
+      "Save As": "Fighter: 10",
+      "Morale": "8",
+      "Treasure Type": "E",
+      "XP": "1,390"
+    }
+  },
+  {
+    "name": "Salamander, Sand*",
+    "stats": {
+      "Armor Class": "18 (m)",
+      "Hit Dice": "7* (+4)",
+      "No.of Attacks": "1 bite + special, see below",
+      "Damage": "1d6 + petrification",
+      "Movement": "20'",
+      "No.Appearing": "1d3, Wild 2d4, Lair 1d6",
+      "Save As": "Fighter: 7",
+      "Morale": "8",
+      "Treasure Type": "L",
+      "XP": "735"
+    }
+  },
+  {
+    "name": "Scorpion, Giant",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "4*",
+      "No.of Attacks": "2 claws/1 stinger",
+      "Damage": "1d10/1d10/1d6 + poison",
+      "Movement": "50' (10')",
+      "No.Appearing": "1d6, Wild 1d6",
+      "Save As": "Fighter: 2",
+      "Morale": "11",
+      "Treasure Type": "None",
+      "XP": "280"
+    }
+  },
+  {
+    "name": "Sea Serpent",
+    "stats": {
+      "Armor Class": "17",
+      "Hit Dice": "6",
+      "No.of Attacks": "1 bite",
+      "Damage": "2d6",
+      "Movement": "Swim 50' (10')",
+      "No.Appearing": "Wild 2d6",
+      "Save As": "Fighter: 6",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "500"
+    }
+  },
+  {
+    "name": "Shadow*",
+    "stats": {
+      "Armor Class": "13 (m)",
+      "Hit Dice": "2*",
+      "No.of Attacks": "1 touch",
+      "Damage": "1d4 + 1 point Strength loss",
+      "Movement": "30'",
+      "No.Appearing": "1d10, Wild 1d10, Lair 1d10",
+      "Save As": "Fighter: 2",
+      "Morale": "12",
+      "Treasure Type": "F",
+      "XP": "100"
+    }
+  },
+  {
+    "name": "Shark, Bull",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "2",
+      "No.of Attacks": "1 bite",
+      "Damage": "2d4",
+      "Movement": "Swim 60' (10')",
+      "No.Appearing": "Wild 3d6",
+      "Save As": "Fighter: 2",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "75"
+    }
+  },
+  {
+    "name": "Shark, Great White",
+    "stats": {
+      "Armor Class": "19",
+      "Hit Dice": "8",
+      "No.of Attacks": "1 bite",
+      "Damage": "2d10",
+      "Movement": "Swim 60' (10')",
+      "No.Appearing": "Wild 1d4",
+      "Save As": "Fighter: 8",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "875"
+    }
+  },
+  {
+    "name": "Shark, Mako",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "4",
+      "No.of Attacks": "1 bite",
+      "Damage": "2d6",
+      "Movement": "Swim 80'",
+      "No.Appearing": "Wild 2d6",
+      "Save As": "Fighter: 4",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "240"
+    }
+  },
+  {
+    "name": "Shrew, Giant",
+    "stats": {
+      "Armor Class": {
+        "Shrew, Common Giant": "16",
+        "Shrew, Venomous Giant": "16"
+      },
+      "Hit Dice": {
+        "Shrew, Common Giant": "1*",
+        "Shrew, Venomous Giant": "1*"
+      },
+      "No.of Attacks": {
+        "Shrew, Common Giant": "2 bites",
+        "Shrew, Venomous Giant": "2 bites"
+      },
+      "Damage": {
+        "Shrew, Common Giant": "1d6/1d6",
+        "Shrew, Venomous Giant": "1d6/1d6 + poison"
+      },
+      "Movement": {
+        "Shrew, Common Giant": "60'",
+        "Shrew, Venomous Giant": "60'"
+      },
+      "No.Appearing": {
+        "Shrew, Common Giant": "1d4, Wild 1d8, Lair 1d8",
+        "Shrew, Venomous Giant": ""
+      },
+      "Save As": {
+        "Shrew, Common Giant": "Fighter: 2",
+        "Shrew, Venomous Giant": "Fighter: 2"
+      },
+      "Morale": {
+        "Shrew, Common Giant": "10",
+        "Shrew, Venomous Giant": "10"
+      },
+      "Treasure Type": {
+        "Shrew, Common Giant": "None",
+        "Shrew, Venomous Giant": "None"
+      },
+      "XP": {
+        "Shrew, Common Giant": "25",
+        "Shrew, Venomous Giant": "37"
+      }
+    }
+  },
+  {
+    "name": "Shrieker",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "3",
+      "No.of Attacks": "Special",
+      "Damage": "None",
+      "Movement": "5'",
+      "No.Appearing": "1d8",
+      "Save As": "Fighter: 1",
+      "Morale": "12",
+      "Treasure Type": "None",
+      "XP": "145"
+    }
+  },
+  {
+    "name": "Skeleton",
+    "stats": {
+      "Armor Class": "13 (see below)",
+      "Hit Dice": "1",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d6 or by weapon",
+      "Movement": "40'",
+      "No.Appearing": "3d6, Wild 3d10",
+      "Save As": "Fighter: 1",
+      "Morale": "12",
+      "Treasure Type": "None",
+      "XP": "25"
+    }
+  },
+  {
+    "name": "Snake, Giant Rattlesnake",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "2*",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d8 + poison",
+      "Movement": "40'",
+      "No.Appearing": "1d2, Wild 1d2, Lair 1d2",
+      "Save As": "Fighter: 2",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "100"
+    }
+  },
+  {
+    "name": "Snake, Pit Viper",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "1*",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d4 + poison",
+      "Movement": "30'",
+      "No.Appearing": "1d4, Wild 1d4, Lair 1d4",
+      "Save As": "Fighter: 1",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "37"
+    }
+  },
+  {
+    "name": "Snake, Python",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "5*",
+      "No.of Attacks": "1 bite/1 constrict",
+      "Damage": "1d4/2d4",
+      "Movement": "30'",
+      "No.Appearing": "1d3, Wild 1d3, Lair 1d3",
+      "Save As": "Fighter: 5",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "405"
+    }
+  },
+  {
+    "name": "Snake, Sea",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "3*",
+      "No.of Attacks": "1 bite",
+      "Damage": "1 + poison",
+      "Movement": "10' Swim 30'",
+      "No.Appearing": "Wild 1d8",
+      "Save As": "Fighter: 3",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "175"
+    }
+  },
+  {
+    "name": "Snake, Spitting Cobra",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "1*",
+      "No.of Attacks": "1 bite or 1 spit",
+      "Damage": "1d4 + poison or blindness",
+      "Movement": "30'",
+      "No.Appearing": "1d6, Wild 1d6, Lair 1d6",
+      "Save As": "Fighter: 1",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "37"
+    }
+  },
+  {
+    "name": "Spectre*",
+    "stats": {
+      "Armor Class": "17 (m)",
+      "Hit Dice": "6**",
+      "No.of Attacks": "1 touch",
+      "Damage": "Energy drain 2 levels/touch",
+      "Movement": "Fly 100'",
+      "No.Appearing": "1d4, Lair 1d8",
+      "Save As": "Fighter: 6",
+      "Morale": "11",
+      "Treasure Type": "E",
+      "XP": "610"
+    }
+  },
+  {
+    "name": "Spider, Giant Black Widow",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "3*",
+      "No.of Attacks": "1 bite",
+      "Damage": "2d6 + poison",
+      "Movement": "20' Web 40'",
+      "No.Appearing": "1d3, Wild 1d3, Lair 1d3",
+      "Save As": "Fighter: 3",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "175"
+    }
+  },
+  {
+    "name": "Spider, Giant Crab",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "2*",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d8 + poison",
+      "Movement": "40'",
+      "No.Appearing": "1d4, Wild 1d4, Lair 1d4",
+      "Save As": "Fighter: 2",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "100"
+    }
+  },
+  {
+    "name": "Spider, Giant Tarantula",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "4*",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d8 + poison",
+      "Movement": "50'",
+      "No.Appearing": "1d3, Wild 1d3, Lair 1d3",
+      "Save As": "Fighter: 4",
+      "Morale": "8",
+      "Treasure Type": "None",
+      "XP": "280"
+    }
+  },
+  {
+    "name": "Sprite",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "1d4 Hit Points *",
+      "No.of Attacks": "1 dagger or 1 spell",
+      "Damage": "1d4 or by spell",
+      "Movement": "20' Fly 60'",
+      "No.Appearing": "3d6, Wild 3d6, Lair 5d8",
+      "Save As": "Magic-User: 4 (with Elf bonuses)",
+      "Morale": "7",
+      "Treasure Type": "S",
+      "XP": "13"
+    }
+  },
+  {
+    "name": "Squid, Giant",
+    "stats": {
+      "Armor Class": {
+        "Squid, Giant Male": "16",
+        "Squid, Giant Female": "17"
+      },
+      "Hit Dice": {
+        "Squid, Giant Male": "6",
+        "Squid, Giant Female": "7"
+      },
+      "No.of Attacks": {
+        "Squid, Giant Male": "8 tentacles/1 bite",
+        "Squid, Giant Female": "8 tentacles/1 bite"
+      },
+      "Damage": {
+        "Squid, Giant Male": "1d4 per tentacle/1d10",
+        "Squid, Giant Female": "1d4 per tentacle/1d12"
+      },
+      "Movement": {
+        "Squid, Giant Male": "Swim 40'",
+        "Squid, Giant Female": "Swim 40'"
+      },
+      "No.Appearing": {
+        "Squid, Giant Male": "Wild 1d4",
+        "Squid, Giant Female": "Wild 1d4"
+      },
+      "Save As": {
+        "Squid, Giant Male": "Fighter: 6",
+        "Squid, Giant Female": "Fighter: 7"
+      },
+      "Morale": {
+        "Squid, Giant Male": "8",
+        "Squid, Giant Female": "8"
+      },
+      "Treasure Type": {
+        "Squid, Giant Male": "None",
+        "Squid, Giant Female": "None"
+      },
+      "XP": {
+        "Squid, Giant Male": "500",
+        "Squid, Giant Female": "670"
+      }
+    }
+  },
+  {
+    "name": "Stirge",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "1*",
+      "No.of Attacks": "1 bite",
+      "Damage": "1d4 + 1d4/round blood drain",
+      "Movement": "10' Fly 60'",
+      "No.Appearing": "1d10, Wild 3d12, Lair 3d12",
+      "Save As": "Fighter: 1",
+      "Morale": "9",
+      "Treasure Type": "D",
+      "XP": "37"
+    }
+  },
+  {
+    "name": "Strangle Vine",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "6",
+      "No.of Attacks": "1 entangle + special",
+      "Damage": "1d8 entangle + special",
+      "Movement": "5'",
+      "No.Appearing": "1d4+1",
+      "Save As": "Fighter: 6",
+      "Morale": "12",
+      "Treasure Type": "U",
+      "XP": "500"
+    }
+  },
+  {
+    "name": "Tentacle Worm",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "3*",
+      "No.of Attacks": "6 tentacles",
+      "Damage": "paralysis",
+      "Movement": "40'",
+      "No.Appearing": "1d3, Lair 1d3",
+      "Save As": "Fighter: 3",
+      "Morale": "9",
+      "Treasure Type": "B",
+      "XP": "175"
+    }
+  },
+  {
+    "name": "Tiger",
+    "stats": {
+      "Armor Class": "14",
+      "Hit Dice": "6",
+      "No.of Attacks": "2 claws/1 bite",
+      "Damage": "1d6/1d6/2d6",
+      "Movement": "50'",
+      "No.Appearing": "Wild 1d3, Lair 1d3",
+      "Save As": "Fighter: 6",
+      "Morale": "9",
+      "Treasure Type": "None",
+      "XP": "500"
+    }
+  },
+  {
+    "name": "Titanothere",
+    "stats": {
+      "Armor Class": "15",
+      "Hit Dice": "12 (+10)",
+      "No.of Attacks": "1 butt or 1 trample",
+      "Damage": "2d6 or 3d8",
+      "Movement": "40' (10')",
+      "No.Appearing": "Wild 1d6",
+      "Save As": "Fighter: 8",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "1,875"
+    }
+  },
+  {
+    "name": "Treant",
+    "stats": {
+      "Armor Class": "19",
+      "Hit Dice": "8*",
+      "No.of Attacks": "2 fists",
+      "Damage": "2d6/2d6",
+      "Movement": "20'",
+      "No.Appearing": "Wild 1d8, Lair 1d8",
+      "Save As": "Fighter: 8",
+      "Morale": "9",
+      "Treasure Type": "C",
+      "XP": "945"
+    }
+  },
+  {
+    "name": "Troll (and Trollwife)",
+    "stats": {
+      "Armor Class": {
+        "Troll": "16",
+        "Trollwife": "16"
+      },
+      "Hit Dice": {
+        "Troll": "6*",
+        "Trollwife": "6*"
+      },
+      "No.of Attacks": {
+        "Troll": "2 claws/1 bite",
+        "Trollwife": "2 claws/1 bite"
+      },
+      "Damage": {
+        "Troll": "1d6/1d6/1d10",
+        "Trollwife": "1d8/1d8/2d6"
+      },
+      "Movement": {
+        "Troll": "40'",
+        "Trollwife": "40'"
+      },
+      "No.Appearing": {
+        "Troll": "1d8, Wild 1d8, Lair 1d8",
+        "Trollwife": "1 (special)"
+      },
+      "Save As": {
+        "Troll": "Fighter: 6",
+        "Trollwife": "Fighter: 7"
+      },
+      "Morale": {
+        "Troll": "10 (8)",
+        "Trollwife": "10 (8)"
+      },
+      "Treasure Type": {
+        "Troll": "D",
+        "Trollwife": "D"
+      },
+      "XP": {
+        "Troll": "555",
+        "Trollwife": "735"
+      }
+    }
+  },
+  {
+    "name": "Trollkin",
+    "stats": {}
+  },
+  {
+    "name": "Turtle or Tortoise",
+    "stats": {
+      "Armor Class": {
+        "Box Turtle": "15",
+        "Snapping Turtle": "16"
+      },
+      "Hit Dice": {
+        "Box Turtle": "\u00c2\u00bd (1d4 hit points)",
+        "Snapping Turtle": "1"
+      },
+      "No.of Attacks": {
+        "Box Turtle": "1 bite",
+        "Snapping Turtle": "1 bite"
+      },
+      "Damage": {
+        "Box Turtle": "1d2",
+        "Snapping Turtle": "1d6"
+      },
+      "Movement": {
+        "Box Turtle": "5' Swim 20'",
+        "Snapping Turtle": "5' Swim 20'"
+      },
+      "No.Appearing": {
+        "Box Turtle": "Wild 1d4",
+        "Snapping Turtle": "Wild 1d4"
+      },
+      "Save As": {
+        "Box Turtle": "Normal Man",
+        "Snapping Turtle": "Fighter: 1"
+      },
+      "Morale": {
+        "Box Turtle": "5",
+        "Snapping Turtle": "6"
+      },
+      "Treasure Type": {
+        "Box Turtle": "None",
+        "Snapping Turtle": "None"
+      },
+      "XP": {
+        "Box Turtle": "10",
+        "Snapping Turtle": "25"
+      }
+    }
+  },
+  {
+    "name": "Unicorn (and Alicorn)",
+    "stats": {
+      "Armor Class": {
+        "Unicorn": "19",
+        "Alicorn": "19"
+      },
+      "Hit Dice": {
+        "Unicorn": "4*",
+        "Alicorn": "4*"
+      },
+      "No.of Attacks": {
+        "Unicorn": "2 hooves/1 horn (+3 attack bonus)",
+        "Alicorn": "2 hooves/1 horn"
+      },
+      "Damage": {
+        "Unicorn": "1d8/1d8/1d6+3",
+        "Alicorn": "2d4/2d4/2d6"
+      },
+      "Movement": {
+        "Unicorn": "80'",
+        "Alicorn": "70'"
+      },
+      "No.Appearing": {
+        "Unicorn": "Wild 1d6",
+        "Alicorn": "Wild 1d8"
+      },
+      "Save As": {
+        "Unicorn": "Fighter: 8",
+        "Alicorn": "Fighter: 6"
+      },
+      "Morale": {
+        "Unicorn": "7",
+        "Alicorn": "9"
+      },
+      "Treasure Type": {
+        "Unicorn": "None",
+        "Alicorn": "None"
+      },
+      "XP": {
+        "Unicorn": "280",
+        "Alicorn": "280"
+      }
+    }
+  },
+  {
+    "name": "Urgoblin",
+    "stats": {
+      "Armor Class": "14 (11)",
+      "Hit Dice": "2*",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d8 or by weapon",
+      "Movement": "30' Unarmored 40'",
+      "No.Appearing": "Special",
+      "Save As": "Fighter: 2",
+      "Morale": "9",
+      "Treasure Type": "Q, R, S each; special in lair",
+      "XP": "100"
+    }
+  },
+  {
+    "name": "Vampire*",
+    "stats": {
+      "Armor Class": "18 to 20 (m)",
+      "Hit Dice": "7** to 9** (+8)",
+      "No.of Attacks": "1 weapon or special",
+      "Damage": "1d8 or by weapon or special",
+      "Movement": "40' Fly 60'",
+      "No.Appearing": "1d6, Wild 1d6, Lair 1d6",
+      "Save As": "Fighter: 7 to 9 (as Hit Dice)",
+      "Morale": "11",
+      "Treasure Type": "F",
+      "XP": "800 - 1,225"
+    }
+  },
+  {
+    "name": "Water Termite, Giant",
+    "stats": {
+      "Armor Class": "13",
+      "Hit Dice": "1 to 4",
+      "No.of Attacks": "1 spray",
+      "Damage": "Stun",
+      "Movement": "Swim 30'",
+      "No.Appearing": "Wild 1d4",
+      "Save As": "Fighter: 1 to 4 (as Hit Dice)",
+      "Morale": "10",
+      "Treasure Type": "None",
+      "XP": "25 - 240"
+    }
+  },
+  {
+    "name": "Weasel, Giant (or Ferret, Giant)",
+    "stats": {
+      "Armor Class": "17",
+      "Hit Dice": "5",
+      "No.of Attacks": "1 bite + hold",
+      "Damage": "2d4 + 2d4 per round",
+      "Movement": "50'",
+      "No.Appearing": "1d4, Wild 1d6, Lair 1d6",
+      "Save As": "Fighter: 5",
+      "Morale": "8",
+      "Treasure Type": "V",
+      "XP": "360"
+    }
+  },
+  {
+    "name": "Whale, Killer",
+    "stats": {
+      "Armor Class": "17",
+      "Hit Dice": "6",
+      "No.of Attacks": "1 bite",
+      "Damage": "2d10",
+      "Movement": "Swim 80' (10')",
+      "No.Appearing": "Wild 1d6",
+      "Save As": "Fighter: 6",
+      "Morale": "10",
+      "Treasure Type": "None",
+      "XP": "500"
+    }
+  },
+  {
+    "name": "Whale, Narwhal",
+    "stats": {
+      "Armor Class": "19",
+      "Hit Dice": "12 (+10)",
+      "No.of Attacks": "1 horn",
+      "Damage": "2d6",
+      "Movement": "Swim 60'",
+      "No.Appearing": "Wild 1d4",
+      "Save As": "Fighter: 6",
+      "Morale": "8",
+      "Treasure Type": "Special",
+      "XP": "1,875"
+    }
+  },
+  {
+    "name": "Whale, Sperm",
+    "stats": {
+      "Armor Class": "22",
+      "Hit Dice": "36* (+16)",
+      "No.of Attacks": "1 bite or special",
+      "Damage": "3d20",
+      "Movement": "Swim 60' (20')",
+      "No.Appearing": "Wild 1d3",
+      "Save As": "Fighter: 8",
+      "Morale": "7",
+      "Treasure Type": "None",
+      "XP": "17,850"
+    }
+  },
+  {
+    "name": "Wight*",
+    "stats": {
+      "Armor Class": "15 (s)",
+      "Hit Dice": "3*",
+      "No.of Attacks": "1 touch",
+      "Damage": "Energy drain (1 level)",
+      "Movement": "30'",
+      "No.Appearing": "1d6, Wild 1d8, Lair 1d8",
+      "Save As": "Fighter: 3",
+      "Morale": "12",
+      "Treasure Type": "B",
+      "XP": "175"
+    }
+  },
+  {
+    "name": "Wolf",
+    "stats": {
+      "Armor Class": {
+        "Normal Wolf": "13",
+        "Dire Wold": "14"
+      },
+      "Hit Dice": {
+        "Normal Wolf": "2",
+        "Dire Wold": "4"
+      },
+      "No.of Attacks": {
+        "Normal Wolf": "1 bite",
+        "Dire Wold": "1 bite"
+      },
+      "Damage": {
+        "Normal Wolf": "1d6",
+        "Dire Wold": "2d4"
+      },
+      "Movement": {
+        "Normal Wolf": "60'",
+        "Dire Wold": "50'"
+      },
+      "No.Appearing": {
+        "Normal Wolf": "2d6, Wild 3d6, Lair 3d6",
+        "Dire Wold": "1d4, Wild 2d4, Lair 2d4"
+      },
+      "Save As": {
+        "Normal Wolf": "Fighter: 2",
+        "Dire Wold": "Fighter: 4"
+      },
+      "Morale": {
+        "Normal Wolf": "8",
+        "Dire Wold": "9"
+      },
+      "Treasure Type": {
+        "Normal Wolf": "None",
+        "Dire Wold": "None"
+      },
+      "XP": {
+        "Normal Wolf": "75",
+        "Dire Wold": "240"
+      }
+    }
+  },
+  {
+    "name": "Wraith*",
+    "stats": {
+      "Armor Class": "15 (m)",
+      "Hit Dice": "4**",
+      "No.of Attacks": "1 touch",
+      "Damage": "1d6 + energy drain (1 level)",
+      "Movement": "Fly 80'",
+      "No.Appearing": "1d4, Lair 1d6",
+      "Save As": "Fighter: 4",
+      "Morale": "12",
+      "Treasure Type": "E",
+      "XP": "320"
+    }
+  },
+  {
+    "name": "Wyvern",
+    "stats": {
+      "Armor Class": "18",
+      "Hit Dice": "7*",
+      "No.of Attacks": "1 bite/1 stinger or 2 talons/1 stinger",
+      "Damage": "2d8/1d6 + poison or 1d10/1d10/1d6 + poison",
+      "Movement": "30' (10') Fly 80' (15')",
+      "No.Appearing": "Wild 1d6, Lair 1d6",
+      "Save As": "Fighter: 7",
+      "Morale": "9",
+      "Treasure Type": "E",
+      "XP": "735"
+    }
+  },
+  {
+    "name": "Yellow Mold",
+    "stats": {
+      "Armor Class": "Can always be hit",
+      "Hit Dice": "2*",
+      "No.of Attacks": "Special",
+      "Damage": "See below",
+      "Movement": "0",
+      "No.Appearing": "1d8",
+      "Save As": "Normal Man",
+      "Morale": "N/A",
+      "Treasure Type": "None",
+      "XP": "100"
+    }
+  },
+  {
+    "name": "Zombie",
+    "stats": {
+      "Armor Class": "12 (see below)",
+      "Hit Dice": "2",
+      "No.of Attacks": "1 weapon",
+      "Damage": "1d8 or by weapon",
+      "Movement": "20'",
+      "No.Appearing": "2d4, Wild 4d6",
+      "Save As": "Fighter: 2",
+      "Morale": "12",
+      "Treasure Type": "None",
+      "XP": "75"
+    }
+  },
+  {
+    "name": "Zombraire (and Skeletaire)",
+    "stats": {
+      "Armor Class": {
+        "Zombraire": "12 (see below)",
+        "Skeletaire": "13 (see below)"
+      },
+      "Hit Dice": {
+        "Zombraire": "2* (variable)",
+        "Skeletaire": "1* (variable)"
+      },
+      "No.of Attacks": {
+        "Zombraire": "1 dagger or 1 spell",
+        "Skeletaire": "1 dagger or 1 spell"
+      },
+      "Damage": {
+        "Zombraire": "1d4 or per spell",
+        "Skeletaire": "1d4 or per spell"
+      },
+      "Movement": {
+        "Zombraire": "20'",
+        "Skeletaire": "40'"
+      },
+      "No.Appearing": {
+        "Zombraire": "1",
+        "Skeletaire": "1"
+      },
+      "Save As": {
+        "Zombraire": "Magic-User: by HD",
+        "Skeletaire": "Magic-User: by HD"
+      },
+      "Morale": {
+        "Zombraire": "9 to 12 (see below)",
+        "Skeletaire": "12"
+      },
+      "Treasure Type": {
+        "Zombraire": "None",
+        "Skeletaire": "None"
+      },
+      "XP": {
+        "Zombraire": "100 (variable)",
+        "Skeletaire": "37 (variable)"
+      }
+    }
+  }
+]
