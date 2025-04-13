@@ -1,0 +1,90 @@
+[
+  {
+    "name":"Antelope",
+    "stats.Hit Dice":"1 to 4"
+  },
+  {
+    "name":"Barkling",
+    "stats.Hit Dice":"1\/2 (1d4 HP)"
+  },
+  {
+    "name":"Bee, Giant",
+    "stats.Hit Dice":"1\/2* (1d4 HP)*"
+  },
+  {
+    "name":"Beetle, Giant Fire",
+    "stats.Hit Dice":"1+2"
+  },
+  {
+    "name":"Centipede, Giant",
+    "stats.Hit Dice":"1d4 Hit Points*"
+  },
+  {
+    "name":"Falcon",
+    "stats.Hit Dice":"1\/2 (1d4 HP)"
+  },
+  {
+    "name":"Gnome",
+    "stats.Hit Dice":"1"
+  },
+  {
+    "name":"Goblin",
+    "stats.Hit Dice":"1-1"
+  },
+  {
+    "name":"Hobgoblin",
+    "stats.Hit Dice":"1"
+  },
+  {
+    "name":"Kobold",
+    "stats.Hit Dice":"1d4 Hit Points"
+  },
+  {
+    "name":"Mermaid",
+    "stats.Hit Dice":"1*"
+  },
+  {
+    "name":"Nixie",
+    "stats.Hit Dice":"1*"
+  },
+  {
+    "name":"Orc",
+    "stats.Hit Dice":"1"
+  },
+  {
+    "name":"Owl",
+    "stats.Hit Dice":"1"
+  },
+  {
+    "name":"Pixie",
+    "stats.Hit Dice":"1*"
+  },
+  {
+    "name":"Rot Grub",
+    "stats.Hit Dice":"1 hp"
+  },
+  {
+    "name":"Skeleton",
+    "stats.Hit Dice":"1"
+  },
+  {
+    "name":"Snake, Pit Viper",
+    "stats.Hit Dice":"1*"
+  },
+  {
+    "name":"Snake, Spitting Cobra",
+    "stats.Hit Dice":"1*"
+  },
+  {
+    "name":"Sprite",
+    "stats.Hit Dice":"1d4 Hit Points *"
+  },
+  {
+    "name":"Stirge",
+    "stats.Hit Dice":"1*"
+  },
+  {
+    "name":"Water Termite, Giant",
+    "stats.Hit Dice":"1 to 4"
+  }
+]
